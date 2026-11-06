@@ -1,0 +1,232 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/sienaguerrero/housewives-taglines/blob/main/data/schema.json",
+  "title": "Housewives Taglines",
+  "description": "Opening-credits taglines from The Real Housewives of Salt Lake City, Beverly Hills, New York City, Potomac, Orange County, New Jersey, Atlanta, Miami, Dubai, Rhode Island, Dallas and D.C., grouped by housewife.",
+  "type": "object",
+  "required": ["version", "updated", "coverage", "franchises", "housewives"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": {
+      "type": "string",
+      "description": "Semver for the dataset shape. Bump the minor when fields are added, the major when a field changes meaning.",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the data was last revised, ISO 8601."
+    },
+    "coverage": {
+      "type": "object",
+      "description": "How current the data is per franchise. Must agree with franchises[].seasons.",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["through_season"],
+        "additionalProperties": false,
+        "properties": {
+          "through_season": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "franchises": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "slug", "name", "short_name", "abbreviation", "city", "premiered", "seasons", "premieres"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Stable id of three hyphenated words, made by script/new_id.rb. Unique across the whole dataset and never changed, even when a name, slug or season is corrected.",
+            "pattern": "^[a-z]+-[a-z]+-[a-z]+$"
+          },
+          "slug": {
+            "type": "string",
+            "description": "Stable short key used as the foreign key from housewives[].franchise and as the :franchise path segment in the API.",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "name": { "type": "string", "description": "Full on-air title." },
+          "short_name": { "type": "string", "description": "City label for display." },
+          "abbreviation": { "type": "string", "description": "Fandom shorthand, e.g. RHOBH." },
+          "city": { "type": "string" },
+          "premiered": { "type": "integer", "description": "Year the franchise premiered." },
+          "seasons": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Seasons aired. Upper bound for any season number in this franchise."
+          },
+          "premieres": {
+            "type": "array",
+            "minItems": 1,
+            "description": "US premiere date of each season, in season order, ISO 8601. One per season, strictly ascending, and the first falls in the premiered year.",
+            "items": { "type": "string", "format": "date" }
+          },
+          "eras": {
+            "type": "array",
+            "minItems": 1,
+            "description": "Reboots and revivals. Eras partition the SEASONS of a series, never its people: a housewife can appear in more than one era, so no person-to-era mapping exists. Must cover 1..seasons with no gaps or overlaps.",
+            "items": {
+              "type": "object",
+              "required": ["id", "slug", "name", "kind", "seasons"],
+              "additionalProperties": false,
+              "properties": {
+                "id": { "type": "string", "description": "Stable word id, as on franchises.", "pattern": "^[a-z]+-[a-z]+-[a-z]+$" },
+                "slug": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+                "name": { "type": "string", "description": "Display name, e.g. \"Original Run\"." },
+                "kind": {
+                  "type": "string",
+                  "enum": ["original", "revival", "reboot"],
+                  "description": "revival is the same show after a break with cast continuity; reboot is a cast replacement under continued numbering. Only the first era may be \"original\"."
+                },
+                "seasons": {
+                  "type": "array",
+                  "minItems": 2,
+                  "maxItems": 2,
+                  "description": "Inclusive [first, last] season range. A range is correct here because a flat file has no join to derive it from; in a relational schema the season row owns its era instead.",
+                  "items": { "type": "integer", "minimum": 1 }
+                },
+                "note": { "type": "string", "description": "What happened, one sentence." }
+              }
+            }
+          },
+          "intro_order": {
+            "type": "object",
+            "description": "Order the housewives appear in each season's opening credits, keyed by season number. The last slug closes the intro. Partial by design: a season appears only once a rewatch has confirmed its full order, and it must list exactly the housewives with a tagline that season.",
+            "propertyNames": { "pattern": "^[1-9][0-9]*$" },
+            "additionalProperties": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+            }
+          },
+          "themes": {
+            "type": "array",
+            "minItems": 1,
+            "description": "Intro theme music, linked to and never hosted. Never holds lyrics. An entry has seasons once a rewatch or a read source ties it to them; until then it has years, copied from the credit as the source gives them, and years-only entries may overlap.",
+            "items": {
+              "type": "object",
+              "required": ["composer", "source_url"],
+              "additionalProperties": false,
+              "properties": {
+                "composer": { "type": "string", "description": "Name as credited, without an \"as\" alias." },
+                "credit": { "type": "string", "description": "Credit wording from the source, e.g. \"theme music\"." },
+                "title": { "type": "string", "description": "Song title, when one is credited." },
+                "seasons": {
+                  "type": "array",
+                  "minItems": 2,
+                  "maxItems": 2,
+                  "description": "Inclusive [first, last] season range, confirmed on a rewatch or by a read source. Season ranges never overlap.",
+                  "items": { "type": "integer", "minimum": 1 }
+                },
+                "years": {
+                  "type": "array",
+                  "minItems": 2,
+                  "maxItems": 2,
+                  "description": "Inclusive [first, last] credit years, for entries not yet tied to seasons.",
+                  "items": { "type": "integer" }
+                },
+                "vocals": { "type": "boolean", "description": "Whether the theme has sung or spoken vocals. Absent if unknown." },
+                "listen_url": { "type": "string", "format": "uri", "description": "Where to hear the aired theme. A link only, never an embed." },
+                "source_url": { "type": "string", "format": "uri", "description": "Where the credit comes from." }
+              }
+            }
+          }
+        }
+      }
+    },
+    "housewives": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "slug", "name", "franchise", "taglines"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Stable id of three hyphenated words, made by script/new_id.rb. Unique across the whole dataset and never changed, even when a name, slug or season is corrected.",
+            "pattern": "^[a-z]+-[a-z]+-[a-z]+$"
+          },
+          "slug": {
+            "type": "string",
+            "description": "Slugified name, unique across the whole dataset. Used as the :housewife path segment.",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "name": { "type": "string", "description": "Name as currently credited." },
+          "credited_as": {
+            "type": "array",
+            "description": "Earlier credited names, when they differ from the current one.",
+            "items": { "type": "string" }
+          },
+          "franchise": {
+            "type": "string",
+            "description": "Slug of the franchise she appeared in.",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "eye_color": {
+            "type": "object",
+            "description": "Her eye color, for the housewife dollz. Present only once it has been decided from photos or picked between close options.",
+            "required": ["color", "basis"],
+            "additionalProperties": false,
+            "properties": {
+              "color": {
+                "type": "string",
+                "description": "One of the twelve dollz eye colors. Neighbors are spread so they read apart on a 3x doll.",
+                "enum": ["black-brown", "dark-brown", "brown", "light-brown", "amber", "hazel", "green", "light-green", "gray", "blue", "light-blue", "deep-blue"]
+              },
+              "basis": {
+                "type": "string",
+                "description": "How the color was decided. photo_sampled: the iris was sampled from a close, lit photo. by_eye: judged by eye across photos where samples were unreliable. editor_pick: chosen between close options.",
+                "enum": ["photo_sampled", "by_eye", "editor_pick"]
+              },
+              "sources": {
+                "type": "array",
+                "minItems": 1,
+                "description": "Pages whose photos the color was read from. Article pages, never image files.",
+                "items": {
+                  "type": "object",
+                  "required": ["source_url", "note"],
+                  "additionalProperties": false,
+                  "properties": {
+                    "source_url": { "type": "string", "format": "uri", "description": "An article page, not an image file." },
+                    "note": { "type": "string", "minLength": 1, "description": "Which photo, and what it showed." }
+                  }
+                }
+              }
+            },
+            "if": { "properties": { "basis": { "enum": ["photo_sampled", "by_eye"] } } },
+            "then": { "required": ["sources"] }
+          },
+          "taglines": {
+            "type": "array",
+            "minItems": 1,
+            "description": "One entry per distinct tagline, in ascending season order. Entries never overlap.",
+            "items": {
+              "type": "object",
+              "required": ["id", "seasons", "tagline"],
+              "additionalProperties": false,
+              "properties": {
+                "id": { "type": "string", "description": "Stable word id, as on franchises.", "pattern": "^[a-z]+-[a-z]+-[a-z]+$" },
+                "seasons": {
+                  "type": "array",
+                  "minItems": 1,
+                  "description": "The seasons this exact line ran. More than one means a contiguous run of seasons that reused the same opening credits, which only happens in early RHONY, RHONJ and RHOA.",
+                  "items": { "type": "integer", "minimum": 1 }
+                },
+                "tagline": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "The line as spoken, verbatim."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

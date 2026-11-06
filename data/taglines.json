@@ -1,0 +1,2497 @@
+{
+  "$schema": "./schema.json",
+  "version": "1.11.0",
+  "updated": "2026-11-06",
+  "coverage": {
+    "slc": { "through_season": 7 },
+    "bh": { "through_season": 15 },
+    "ny": { "through_season": 16 },
+    "potomac": { "through_season": 11 },
+    "oc": { "through_season": 20 },
+    "nj": { "through_season": 14 },
+    "atl": { "through_season": 17 },
+    "miami": { "through_season": 7 },
+    "dubai": { "through_season": 2 },
+    "ri": { "through_season": 1 },
+    "dallas": { "through_season": 5 },
+    "dc": { "through_season": 1 }
+  },
+  "franchises": [
+    {
+      "id": "cobalt-diamond-cape",
+      "slug": "slc",
+      "name": "The Real Housewives of Salt Lake City",
+      "short_name": "Salt Lake City",
+      "abbreviation": "RHOSLC",
+      "city": "Salt Lake City",
+      "premiered": 2020,
+      "seasons": 7,
+      "premieres": ["2020-11-11", "2021-09-12", "2022-09-28", "2023-09-05", "2024-09-18", "2025-09-16", "2026-09-16"],
+      "eras": [
+        { "id": "lilac-spotlight-quill", "slug": "original", "name": "Original Run", "kind": "original", "seasons": [1, 7] }
+      ],
+      "themes": [
+        { "composer": "Michael Bizar", "credit": "title music", "years": [2020, 2022],
+          "source_url": "https://www.imdb.com/title/tt11363282/fullcredits/" }
+      ]
+    },
+    {
+      "id": "cherry-glam-atomizer",
+      "slug": "bh",
+      "name": "The Real Housewives of Beverly Hills",
+      "short_name": "Beverly Hills",
+      "abbreviation": "RHOBH",
+      "city": "Beverly Hills",
+      "premiered": 2010,
+      "seasons": 15,
+      "premieres": ["2010-10-14", "2011-09-05", "2012-11-05", "2013-11-04", "2014-11-18", "2015-12-01", "2016-12-06",
+                    "2017-12-19", "2019-02-12", "2020-04-15", "2021-05-19", "2022-05-11", "2023-10-25", "2024-11-19",
+                    "2025-12-04"],
+      "eras": [
+        { "id": "iridescent-finale-headband", "slug": "original", "name": "Original Run", "kind": "original", "seasons": [1, 15] }
+      ],
+      "themes": [
+        { "composer": "Alan Lazar", "credit": "theme music", "years": [2010, 2026],
+          "listen_url": "https://alanlazar.com/music/the-real-housewives-of-beverly-hills/",
+          "source_url": "https://www.imdb.com/title/tt1720601/fullcredits/" }
+      ]
+    },
+    {
+      "id": "shimmering-premiere-tulip",
+      "slug": "ny",
+      "name": "The Real Housewives of New York City",
+      "short_name": "New York City",
+      "abbreviation": "RHONY",
+      "city": "New York City",
+      "premiered": 2008,
+      "seasons": 16,
+      "premieres": ["2008-03-04", "2009-02-17", "2010-03-04", "2011-04-07", "2012-06-04", "2014-03-11", "2015-04-07",
+                    "2016-04-06", "2017-04-05", "2018-04-04", "2019-03-06", "2020-04-02", "2021-05-04", "2023-07-16",
+                    "2024-10-01", "2026-09-08"],
+      "eras": [
+        { "id": "silk-reunion-gazebo", "slug": "original", "name": "Original Run", "kind": "original", "seasons": [1, 13] },
+        { "id": "ruffled-cameo-sconce", "slug": "reboot", "name": "Reboot", "kind": "reboot", "seasons": [14, 16],
+          "note": "Full cast replacement after a season off; numbering continued" }
+      ],
+      "themes": [
+        { "composer": "Biff Sanders", "credit": "original theme", "years": [2008, 2011],
+          "source_url": "https://www.imdb.com/title/tt1191056/fullcredits/" },
+        { "composer": "Michael Baiardi", "credit": "theme music", "years": [2014, 2017],
+          "source_url": "https://www.imdb.com/title/tt1191056/fullcredits/" },
+        { "composer": "Benjamin Forrest Davis", "credit": "main title composer", "years": [2017, 2019],
+          "source_url": "https://www.imdb.com/title/tt1191056/fullcredits/" },
+        { "composer": "Pietro Milanesi", "credit": "theme music composer", "years": [2023, 2025],
+          "source_url": "https://www.imdb.com/title/tt1191056/fullcredits/" }
+      ]
+    },
+    {
+      "id": "sequin-reunion-organza",
+      "slug": "potomac",
+      "name": "The Real Housewives of Potomac",
+      "short_name": "Potomac",
+      "abbreviation": "RHOP",
+      "city": "Potomac",
+      "premiered": 2016,
+      "seasons": 11,
+      "premieres": ["2016-01-17", "2017-04-02", "2018-04-01", "2019-05-05", "2020-08-02", "2021-07-11", "2022-10-09",
+                    "2023-11-05", "2024-10-06", "2025-10-05", "2026-10-11"],
+      "eras": [
+        { "id": "glitter-glam-staircase", "slug": "original", "name": "Original Run", "kind": "original", "seasons": [1, 11] }
+      ]
+    },
+    {
+      "id": "velvet-diamond-chandelier",
+      "slug": "oc",
+      "name": "The Real Housewives of Orange County",
+      "short_name": "Orange County",
+      "abbreviation": "RHOC",
+      "city": "Orange County",
+      "premiered": 2006,
+      "seasons": 20,
+      "premieres": ["2006-03-21", "2007-01-16", "2007-11-06", "2008-11-25", "2009-11-05", "2011-03-06", "2012-02-07",
+                    "2013-04-01", "2014-04-14", "2015-06-08", "2016-06-20", "2017-07-10", "2018-07-16", "2019-08-06",
+                    "2020-10-14", "2021-12-01", "2023-06-07", "2024-07-11", "2025-07-10", "2026-07-09"],
+      "eras": [
+        { "id": "blush-peach-organza", "slug": "original", "name": "Original Run", "kind": "original", "seasons": [1, 20] }
+      ],
+      "themes": [
+        { "composer": "Biff Sanders", "credit": "theme music", "seasons": [1, 3],
+          "source_url": "https://www.imdb.com/title/tt0497079/fullcredits/" }
+      ]
+    },
+    {
+      "id": "mint-luncheon-souffle",
+      "slug": "nj",
+      "name": "The Real Housewives of New Jersey",
+      "short_name": "New Jersey",
+      "abbreviation": "RHONJ",
+      "city": "New Jersey",
+      "premiered": 2009,
+      "seasons": 14,
+      "premieres": ["2009-05-12", "2010-05-03", "2011-05-16", "2012-04-22", "2013-06-02", "2014-07-13", "2016-07-10",
+                    "2017-10-04", "2018-11-07", "2019-11-06", "2021-02-17", "2022-02-01", "2023-02-07", "2024-05-05"],
+      "eras": [
+        { "id": "ruby-photoshoot-curler", "slug": "original", "name": "Original Run", "kind": "original", "seasons": [1, 14] }
+      ]
+    },
+    {
+      "id": "lilac-diamond-candle",
+      "slug": "atl",
+      "name": "The Real Housewives of Atlanta",
+      "short_name": "Atlanta",
+      "abbreviation": "RHOA",
+      "city": "Atlanta",
+      "premiered": 2008,
+      "seasons": 17,
+      "premieres": ["2008-10-07", "2009-07-30", "2010-10-04", "2011-11-06", "2012-11-04", "2013-11-03", "2014-11-09",
+                    "2015-11-08", "2016-11-06", "2017-11-05", "2018-11-04", "2019-11-03", "2020-12-06", "2022-05-01",
+                    "2023-05-07", "2025-03-09", "2026-04-05"],
+      "eras": [
+        { "id": "pastel-chateau-candelabra", "slug": "original", "name": "Original Run", "kind": "original", "seasons": [1, 17] }
+      ],
+      "themes": [
+        { "composer": "Matthew McGaughey", "credit": "theme music, main title composer", "seasons": [1, 2],
+          "source_url": "https://www.imdb.com/title/tt1252370/fullcredits/" }
+      ]
+    },
+    {
+      "id": "metallic-peach-ribbon",
+      "slug": "miami",
+      "name": "The Real Housewives of Miami",
+      "short_name": "Miami",
+      "abbreviation": "RHOM",
+      "city": "Miami",
+      "premiered": 2011,
+      "seasons": 7,
+      "premieres": ["2011-02-22", "2012-09-13", "2013-08-12", "2021-12-16", "2022-12-08", "2023-11-01", "2025-06-11"],
+      "eras": [
+        { "id": "plush-confessional-runway", "slug": "original", "name": "Original Run", "kind": "original", "seasons": [1, 3] },
+        { "id": "metallic-glam-parasol", "slug": "revival", "name": "Revival", "kind": "revival", "seasons": [4, 7], "note": "Returned on Peacock after eight years off with Lisa Hochstein, Alexia Nepola and Larsa Pippen; moved back to Bravo from season 6" }
+      ],
+      "themes": [
+        { "composer": "Adriana de Moura", "credit": "song", "title": "Feel the Rush", "vocals": true, "seasons": [2, 4],
+          "listen_url": "https://www.youtube.com/watch?v=VHMTTizrCE4",
+          "source_url": "https://www.bravotv.com/the-daily-dish/rhom-season-4-premiere-episode-features-adriana-de-mouras-feel-the-rush" }
+      ],
+      "intro_order": {
+        "7": ["alexia-nepola", "larsa-pippen", "guerdy-abraira", "julia-lemigova", "lisa-hochstein", "stephanie-shojaee"]
+      }
+    },
+    {
+      "id": "silk-orange-birdcage",
+      "slug": "dubai",
+      "name": "The Real Housewives of Dubai",
+      "short_name": "Dubai",
+      "abbreviation": "RHODubai",
+      "city": "Dubai",
+      "premiered": 2022,
+      "seasons": 2,
+      "premieres": ["2022-06-01", "2024-06-02"],
+      "eras": [
+        { "id": "feathered-reunion-postcard", "slug": "original", "name": "Original Run", "kind": "original", "seasons": [1, 2] }
+      ]
+    },
+    {
+      "id": "lacquered-flashback-magnolia",
+      "slug": "ri",
+      "name": "The Real Housewives of Rhode Island",
+      "short_name": "Rhode Island",
+      "abbreviation": "RHORI",
+      "city": "Rhode Island",
+      "premiered": 2026,
+      "seasons": 1,
+      "premieres": ["2026-04-02"],
+      "eras": [
+        { "id": "gilded-encore-clutch", "slug": "original", "name": "Original Run", "kind": "original", "seasons": [1, 1] }
+      ]
+    },
+    {
+      "id": "tufted-diamond-palette",
+      "slug": "dallas",
+      "name": "The Real Housewives of Dallas",
+      "short_name": "Dallas",
+      "abbreviation": "RHOD",
+      "city": "Dallas",
+      "premiered": 2016,
+      "seasons": 5,
+      "premieres": ["2016-04-11", "2017-08-14", "2018-08-15", "2019-09-04", "2021-01-05"],
+      "eras": [
+        { "id": "blush-gala-headband", "slug": "original", "name": "Original Run", "kind": "original", "seasons": [1, 5] }
+      ],
+      "themes": [
+        { "composer": "Richard Malstrom", "credit": "theme music", "seasons": [1, 5],
+          "listen_url": "https://www.bravotv.com/the-daily-dish/the-real-housewives-of-dallas-taglines-video",
+          "source_url": "https://www.imdb.com/title/tt5512352/fullcredits/" }
+      ]
+    },
+    {
+      "id": "pleated-encore-confetti",
+      "slug": "dc",
+      "name": "The Real Housewives of D.C.",
+      "short_name": "D.C.",
+      "abbreviation": "RHODC",
+      "city": "Washington, D.C.",
+      "premiered": 2010,
+      "seasons": 1,
+      "premieres": ["2010-08-05"],
+      "eras": [
+        { "id": "lacquered-glam-tulip", "slug": "original", "name": "Original Run", "kind": "original", "seasons": [1, 1] }
+      ],
+      "themes": [
+        { "composer": "Jeff Peters", "credit": "theme music", "seasons": [1, 1],
+          "source_url": "https://www.imdb.com/title/tt1674023/fullcredits/" }
+      ]
+    }
+  ],
+  "housewives": [
+    {
+      "id": "fringed-soiree-postcard",
+      "slug": "lisa-barlow",
+      "name": "Lisa Barlow",
+      "franchise": "slc",
+      "taglines": [
+        { "id": "mirrored-confessional-curler", "seasons": [1], "tagline": "When you take cheap shots, always expect a hangover." },
+        { "id": "emerald-gala-headband", "seasons": [2], "tagline": "You don't have to like me. I love myself enough for the both of us." },
+        { "id": "mint-reunion-kimono", "seasons": [3], "tagline": "I'll always have your back, if you stop stabbing me in mine." },
+        { "id": "cobalt-peach-cabana", "seasons": [4], "tagline": "I'm on a mission to serve Lisa, and I love that for myself." },
+        { "id": "jade-photoshoot-staircase", "seasons": [5], "tagline": "Tequila is my livelihood, and my lifestyle is always top shelf." },
+        { "id": "beaded-terrace-fascinator", "seasons": [6], "tagline": "I don't go low; I go the distance." },
+        { "id": "lacquered-villa-settee", "seasons": [7], "tagline": "I put a song in my heart to replace the knife in my back." }
+      ]
+    },
+    {
+      "id": "golden-reunion-eclair",
+      "slug": "whitney-rose",
+      "name": "Whitney Rose",
+      "franchise": "slc",
+      "eye_color": {
+        "color": "hazel",
+        "basis": "editor_pick"
+      },
+      "taglines": [
+        { "id": "glitter-peach-gardenia", "seasons": [1], "tagline": "This rose isn't scared to handle a little prick." },
+        { "id": "glitter-tagline-slipper", "seasons": [2], "tagline": "In a town of beauties and beasts, there's only one wild rose." },
+        { "id": "silver-terrace-cape", "seasons": [3], "tagline": "I am more of a free spirit without the Holy Spirit." },
+        { "id": "plush-luncheon-settee", "seasons": [4], "tagline": "Having faith in myself is the only religion I need." },
+        { "id": "rose-launch-tulle", "seasons": [5], "tagline": "On my healing journey, I always travel first class." },
+        { "id": "rose-marquee-headband", "seasons": [6], "tagline": "Roses are redheads, violets are blue. Don't come for me, or I'll come for you." },
+        { "id": "ivory-luncheon-satchel", "seasons": [7], "tagline": "I've always been a rose, but now I'm in full bloom." }
+      ]
+    },
+    {
+      "id": "shimmering-launch-gown",
+      "slug": "meredith-marks",
+      "name": "Meredith Marks",
+      "franchise": "slc",
+      "taglines": [
+        { "id": "golden-launch-saucer", "seasons": [1], "tagline": "Jealousy is a disease, to which I say, 'Get well soon!'" },
+        { "id": "lilac-peach-atomizer", "seasons": [2], "tagline": "I may be known for my ice, but I always bring the heat." },
+        { "id": "gilded-cameo-cushion", "seasons": [3], "tagline": "When I take a shot, I always hit my mark." },
+        { "id": "opal-premiere-anklet", "seasons": [4], "tagline": "In a town full of dirty lies, everyone can use a bath." },
+        { "id": "emerald-peach-cufflink", "seasons": [5], "tagline": "I'm known for my tub, and this year I'm bathing in glory." },
+        { "id": "blush-glam-taffeta", "seasons": [6], "tagline": "While you drop lies, I'm dropping beats." },
+        { "id": "marble-finale-tiara", "seasons": [7], "tagline": "This year, I'm turning up the bass and showing off my new face." }
+      ]
+    },
+    {
+      "id": "plush-launch-quill",
+      "slug": "heather-gay",
+      "name": "Heather Gay",
+      "franchise": "slc",
+      "taglines": [
+        { "id": "plush-launch-cushion", "seasons": [1], "tagline": "Just like my pioneer ancestors, I'm trying to blaze a new trail." },
+        { "id": "sequin-chateau-clutch", "seasons": [2], "tagline": "I was raised a Mormon, but now, I'm raising a glass of champagne." },
+        { "id": "ruby-villa-lantern", "seasons": [3], "tagline": "I may be a bad Mormon, but I'll always be a good time." },
+        { "id": "frosted-cameo-compact", "seasons": [4], "tagline": "I own a beauty empire, so I don't need any of your lip service." },
+        { "id": "lilac-villa-fan", "seasons": [5], "tagline": "Don't play me, I've got the receipts, proof, and the screenshots." },
+        { "id": "blush-premiere-chandelier", "seasons": [6], "tagline": "My nest is almost empty, and this bird is ready to soar." },
+        { "id": "sparkly-glam-bangle", "seasons": [7], "tagline": "I don't kiss and tell, I publish and sell." }
+      ]
+    },
+    {
+      "id": "frosted-reunion-palette",
+      "slug": "mary-cosby",
+      "name": "Mary Cosby",
+      "franchise": "slc",
+      "taglines": [
+        { "id": "golden-confessional-mascara", "seasons": [1], "tagline": "I love God, but I will read you like a scripture." },
+        { "id": "tufted-diamond-pearl", "seasons": [2], "tagline": "If you come for me, I will send Jesus after you." },
+        { "id": "neon-marquee-locket", "seasons": [5], "tagline": "God is my shepherd, and you all look like sheep." },
+        { "id": "satin-finale-corsage", "seasons": [6], "tagline": "I'm just here to eat, drink, and be Mary." },
+        { "id": "golden-chateau-lipstick", "seasons": [7], "tagline": "In my darkest times, I've found the light." }
+      ]
+    },
+    {
+      "id": "scalloped-finale-monogram",
+      "slug": "jen-shah",
+      "name": "Jen Shah",
+      "franchise": "slc",
+      "taglines": [
+        { "id": "ivory-soiree-hydrangea", "seasons": [1], "tagline": "In this town, I'm Queen Bee and MVP." },
+        { "id": "shimmering-flashback-robe", "seasons": [2], "tagline": "The only thing I'm guilty of is being Shah-mazing." },
+        { "id": "sparkly-diamond-kimono", "seasons": [3], "tagline": "I'm fighting for my life, not your approval." }
+      ]
+    },
+    {
+      "id": "fringed-flashback-macaron",
+      "slug": "jennie-nguyen",
+      "name": "Jennie Nguyen",
+      "franchise": "slc",
+      "taglines": [
+        { "id": "velvet-apple-saucer", "seasons": [2], "tagline": "I have plenty of everything, including opinions." }
+      ]
+    },
+    {
+      "id": "ruby-finale-scrunchie",
+      "slug": "angie-katsanevas",
+      "name": "Angie Katsanevas",
+      "franchise": "slc",
+      "taglines": [
+        { "id": "neon-montage-headband", "seasons": [4], "tagline": "I may be Greek, but don't expect an olive branch from me." },
+        { "id": "metallic-apple-tulip", "seasons": [5], "tagline": "You may have been in a sorority, but I'm Greek for life, baby." },
+        { "id": "opal-launch-dahlia", "seasons": [6], "tagline": "I'm Greek, and the rest are just a tragedy." },
+        { "id": "neon-encore-lily", "seasons": [7], "tagline": "I've got a sharp tongue, but it never makes for a dull moment." }
+      ]
+    },
+    {
+      "id": "mirrored-villa-saucer",
+      "slug": "monica-garcia",
+      "name": "Monica Garcia",
+      "franchise": "slc",
+      "taglines": [
+        { "id": "marble-marquee-cufflink", "seasons": [4], "tagline": "I keep my friends close, but my secrets closer." }
+      ]
+    },
+    {
+      "id": "opal-spotlight-hatbox",
+      "slug": "bronwyn-newport",
+      "name": "Bronwyn Newport",
+      "franchise": "slc",
+      "taglines": [
+        { "id": "ruffled-photoshoot-locket", "seasons": [5], "tagline": "The only muted thing you'd find in my wardrobe is my black card." },
+        { "id": "cobalt-terrace-palette", "seasons": [6], "tagline": "If my closet had skeletons, at least they'd be well-dressed." },
+        { "id": "marble-terrace-corsage", "seasons": [7], "tagline": "You collect rumors while I'm collecting designers." }
+      ]
+    },
+
+    {
+      "id": "crystal-confessional-settee",
+      "slug": "kyle-richards",
+      "name": "Kyle Richards",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "blush-apple-garland", "seasons": [1], "tagline": "In a town full of phonies, I'm not afraid to be me." },
+        { "id": "sapphire-reunion-orchid", "seasons": [2], "tagline": "I'm not the richest girl in Beverly Hills, but I am the luckiest." },
+        { "id": "coral-photoshoot-chandelier", "seasons": [3], "tagline": "I'm born and raised in Beverly Hills. This is my town." },
+        { "id": "coral-gala-tulip", "seasons": [4], "tagline": "I'm from this town. I know what's real and I know what's fake." },
+        { "id": "cobalt-marquee-runway", "seasons": [5], "tagline": "Planes and yachts are nice, but my happiness starts at home." },
+        { "id": "feathered-villa-brocade", "seasons": [6], "tagline": "In Beverly Hills you can be anything, but it's most important to be yourself." },
+        { "id": "ruby-launch-ottoman", "seasons": [7], "tagline": "I'm an expert on luxury, and I can always spot a fake." },
+        { "id": "emerald-tagline-ottoman", "seasons": [8], "tagline": "In this town, fame and money come and go, but friends should not." },
+        { "id": "plush-marquee-compact", "seasons": [9], "tagline": "In Beverly Hills, the truth always has a way of rising to the top." },
+        { "id": "cherry-cameo-tote", "seasons": [10], "tagline": "Around here, there's more than just dresses in everyone's closet." },
+        { "id": "gilded-launch-cabana", "seasons": [11], "tagline": "This town is a game of chess, but no one's taking this queen down." },
+        { "id": "scalloped-orange-magnolia", "seasons": [12], "tagline": "When you're the real deal, you don't have to pretend." },
+        { "id": "sequin-luncheon-tote", "seasons": [13], "tagline": "It's hard to outrun rumors, but luckily, I'm in better shape than ever." },
+        { "id": "cherry-reunion-taffeta", "seasons": [14], "tagline": "These hills have eyes, and they're all staring at me." },
+        { "id": "golden-marquee-candle", "seasons": [15], "tagline": "In this town, stars come and go but diamonds last forever." }
+      ]
+    },
+    {
+      "id": "quilted-cameo-candelabra",
+      "slug": "lisa-vanderpump",
+      "name": "Lisa Vanderpump",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "emerald-encore-souffle", "seasons": [1], "tagline": "In Beverly Hills it's who you know, and I know everyone." },
+        { "id": "metallic-premiere-sunhat", "seasons": [2], "tagline": "Life in Beverly Hills is a game, and I make the rules." },
+        { "id": "shimmering-tagline-atomizer", "seasons": [3], "tagline": "Life isn't all diamonds and rosé, but it should be." },
+        { "id": "lacquered-cameo-gazebo", "seasons": [4], "tagline": "Life is a sexy little dance, and I like to take the lead." },
+        { "id": "marble-flashback-cushion", "seasons": [5], "tagline": "Throw me to the wolves and I shall return, leading the pack." },
+        { "id": "metallic-terrace-sconce", "seasons": [6], "tagline": "I'm passionate about dogs, just not crazy about bitches." },
+        { "id": "coral-diamond-saucer", "seasons": [7], "tagline": "The crown is heavy, darlings, so just leave it where it belongs." },
+        { "id": "ivory-chateau-boa", "seasons": [8], "tagline": "The Queen of Diamonds always has an ace up her sleeve." },
+        { "id": "sequin-finale-lipstick", "seasons": [9], "tagline": "You can stab me in the back, but whilst you're there, kiss my ass." }
+      ]
+    },
+    {
+      "id": "tufted-diamond-quill",
+      "slug": "kim-richards",
+      "name": "Kim Richards",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "quilted-launch-staircase", "seasons": [1], "tagline": "I was a child star, but now my most important role is being a mother." },
+        { "id": "neon-finale-doily", "seasons": [2], "tagline": "People try to figure me out, but I'm one of a kind." },
+        { "id": "blush-peach-robe", "seasons": [3], "tagline": "Life is a journey, and I'm finding myself every day." },
+        { "id": "beaded-villa-runway", "seasons": [4], "tagline": "Everybody loves a comeback story, especially starring me." },
+        { "id": "beaded-marquee-brooch", "seasons": [5], "tagline": "I've been rich and I've been famous, but happiness beats them both." }
+      ]
+    },
+    {
+      "id": "sparkly-tagline-brocade",
+      "slug": "camille-grammer",
+      "name": "Camille Grammer",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "cobalt-chateau-dahlia", "seasons": [1], "tagline": "It's time for me to come out of my husband's shadow and shine." },
+        { "id": "pleated-montage-lantern", "seasons": [2], "tagline": "Diamonds aren't a girl's best friend, freedom is." }
+      ]
+    },
+    {
+      "id": "sapphire-gala-settee",
+      "slug": "adrienne-maloof",
+      "name": "Adrienne Maloof",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "peach-spotlight-sash", "seasons": [1], "tagline": "Money is what I have, not who I am." },
+        { "id": "golden-gala-lipstick", "seasons": [2], "tagline": "Having it all is easy, if you're willing to work for it." },
+        { "id": "ivory-premiere-runway", "seasons": [3], "tagline": "Know your friends, show your enemies the door." }
+      ]
+    },
+    {
+      "id": "mirrored-launch-souffle",
+      "slug": "taylor-armstrong",
+      "name": "Taylor Armstrong",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "quilted-cameo-chaise", "seasons": [1], "tagline": "It may look like I have it all, but I want more." },
+        { "id": "silver-encore-cushion", "seasons": [2], "tagline": "I finally found my voice, and I'm not afraid to use it." },
+        { "id": "plush-glam-staircase", "seasons": [3], "tagline": "I fought too hard for this zip code to go home now." }
+      ]
+    },
+    {
+      "id": "tufted-cameo-settee",
+      "slug": "yolanda-hadid",
+      "name": "Yolanda Hadid",
+      "franchise": "bh",
+      "credited_as": ["Yolanda Foster"],
+      "taglines": [
+        { "id": "plush-terrace-tulle", "seasons": [3], "tagline": "I like to have fun, but I don't play games." },
+        { "id": "satin-photoshoot-gardenia", "seasons": [4], "tagline": "Don't tell me you're my friend, act like one." },
+        { "id": "cobalt-luncheon-garland", "seasons": [5], "tagline": "Character isn't what you have, it's who you are." },
+        { "id": "pastel-apple-tote", "seasons": [6], "tagline": "Fake friends believe rumors, real friends believe in you." }
+      ]
+    },
+    {
+      "id": "glitter-photoshoot-garland",
+      "slug": "brandi-glanville",
+      "name": "Brandi Glanville",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "shimmering-montage-staircase", "seasons": [3], "tagline": "Money doesn't give you class, it just gives you money." },
+        { "id": "jade-peach-tote", "seasons": [4], "tagline": "In Beverly Hills, the higher you climb the farther you fall." },
+        { "id": "fringed-finale-chaise", "seasons": [5], "tagline": "I'd rather spend my life kicking ass than kissing it." }
+      ]
+    },
+    {
+      "id": "neon-soiree-cushion",
+      "slug": "joyce-giraud",
+      "name": "Joyce Giraud",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "sapphire-spotlight-perfume", "seasons": [4], "tagline": "You can never be too young, too thin, or too honest." }
+      ]
+    },
+    {
+      "id": "emerald-soiree-vanity",
+      "slug": "carlton-gebbia",
+      "name": "Carlton Gebbia",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "silver-villa-clutch", "seasons": [4], "tagline": "In my world, money doesn't talk, it swears." }
+      ]
+    },
+    {
+      "id": "blush-tagline-cufflink",
+      "slug": "lisa-rinna",
+      "name": "Lisa Rinna",
+      "franchise": "bh",
+      "eye_color": {
+        "color": "brown",
+        "basis": "editor_pick"
+      },
+      "taglines": [
+        { "id": "fringed-diamond-pillow", "seasons": [5], "tagline": "You've heard a lot about me, but it's only true when it comes from my lips." },
+        { "id": "fringed-soiree-slipper", "seasons": [6], "tagline": "My lips were made for talkin' and that's just what they'll do." },
+        { "id": "opal-launch-souffle", "seasons": [7], "tagline": "My advice to you: Don't hustle the hustler." },
+        { "id": "crystal-confessional-sconce", "seasons": [8], "tagline": "I don't have to buy it, because I already own it." },
+        { "id": "fringed-finale-birdcage", "seasons": [9], "tagline": "In the game of life, it's Rinna take all." },
+        { "id": "lilac-luncheon-lily", "seasons": [10], "tagline": "The secret to life? Dance like everyone is watching." },
+        { "id": "lacquered-premiere-curler", "seasons": [11], "tagline": "My lips are legendary, and they will never gloss over the truth." },
+        { "id": "pearly-launch-scrunchie", "seasons": [12], "tagline": "Hi, I'm karma. And yes, I am a bitch." }
+      ]
+    },
+    {
+      "id": "iridescent-spotlight-lily",
+      "slug": "eileen-davidson",
+      "name": "Eileen Davidson",
+      "franchise": "bh",
+      "eye_color": {
+        "color": "gray",
+        "basis": "editor_pick"
+      },
+      "taglines": [
+        { "id": "sapphire-montage-souffle", "seasons": [5], "tagline": "I'm not a bitch, but I've played one on TV." },
+        { "id": "cherry-photoshoot-peony", "seasons": [6], "tagline": "I may be an actress, but that doesn't mean I'll stick to your script." },
+        { "id": "neon-tagline-pearl", "seasons": [7], "tagline": "I speak no evil, but I see and hear everything." }
+      ]
+    },
+    {
+      "id": "sparkly-montage-atomizer",
+      "slug": "erika-jayne",
+      "name": "Erika Jayne",
+      "franchise": "bh",
+      "credited_as": ["Erika Girardi"],
+      "taglines": [
+        { "id": "opal-finale-organza", "seasons": [6], "tagline": "I'm an enigma, wrapped in a riddle, and cash." },
+        { "id": "pleated-flashback-garland", "seasons": [7], "tagline": "I may be two people, but I'm not two-faced." },
+        { "id": "peach-terrace-brooch", "seasons": [8], "tagline": "Some people call me cold, but that's not ice, it's diamonds." },
+        { "id": "ivory-confessional-dahlia", "seasons": [9], "tagline": "Most people talk about their fantasies; I'm living mine." },
+        { "id": "opal-finale-perfume", "seasons": [10], "tagline": "Break a leg? Not in these heels, honey." },
+        { "id": "silver-marquee-orchid", "seasons": [11], "tagline": "The strongest substance on Earth isn't diamonds. It's me." },
+        { "id": "marble-photoshoot-robe", "seasons": [12], "tagline": "I have nothing to hide, and nothing to lose, and that makes me dangerous." },
+        { "id": "pleated-launch-pillow", "seasons": [13], "tagline": "The best part about losing everything is getting it all back." },
+        { "id": "mint-chateau-ottoman", "seasons": [14], "tagline": "In Beverly Hills, money buys a lot, but my independence? Priceless." },
+        { "id": "pastel-finale-bouquet", "seasons": [15], "tagline": "Survival isn't my story, it's my superpower." }
+      ]
+    },
+    {
+      "id": "feathered-diamond-chandelier",
+      "slug": "kathryn-edwards",
+      "name": "Kathryn Edwards",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "rose-chateau-balloon", "seasons": [6], "tagline": "My advice: Speak your mind and carry a good handbag." }
+      ]
+    },
+    {
+      "id": "mirrored-diamond-saucer",
+      "slug": "dorit-kemsley",
+      "name": "Dorit Kemsley",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "pleated-launch-lantern", "seasons": [7], "tagline": "When you travel the world, you can speak in any accent you want." },
+        { "id": "golden-luncheon-hydrangea", "seasons": [8], "tagline": "I believe in an excess of everything, except moderation." },
+        { "id": "amber-villa-slipper", "seasons": [9], "tagline": "In business and in life, I wear many hats, and hairstyles." },
+        { "id": "golden-gala-lily", "seasons": [10], "tagline": "I won't settle for anything less than everything." },
+        { "id": "glossy-glam-fountain", "seasons": [11], "tagline": "Dress like there's no tomorrow. And then tomorrow, do it again." },
+        { "id": "ruby-luncheon-perfume", "seasons": [12], "tagline": "You can take all my things, and you won't have taken a thing that matters." },
+        { "id": "ruby-glam-lipstick", "seasons": [13], "tagline": "Fashion is my language, and I speak it fluently." },
+        { "id": "beaded-launch-kaftan", "seasons": [14], "tagline": "I might look like a doll, but don't wind me up." },
+        { "id": "pastel-gala-souffle", "seasons": [15], "tagline": "I'm unfiltered, unbothered and finally unburdened." }
+      ]
+    },
+    {
+      "id": "gilded-tagline-candelabra",
+      "slug": "teddi-mellencamp",
+      "name": "Teddi Mellencamp",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "velvet-peach-balloon", "seasons": [8], "tagline": "Having the best isn't important to me, but being my best is." },
+        { "id": "feathered-glam-compact", "seasons": [9], "tagline": "I'm not afraid of hard work, but I'll never do your dirty work." },
+        { "id": "metallic-launch-garland", "seasons": [10], "tagline": "You never know what to expect when I'm expecting." }
+      ]
+    },
+    {
+      "id": "beaded-marquee-magnolia",
+      "slug": "denise-richards",
+      "name": "Denise Richards",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "jade-spotlight-kaftan", "seasons": [9], "tagline": "My problem with the tabloids? My real life is so much juicier." },
+        { "id": "metallic-orange-jukebox", "seasons": [10], "tagline": "My life may not be a fairy tale, but I'll always get a happy ending." }
+      ]
+    },
+    {
+      "id": "neon-tagline-candle",
+      "slug": "garcelle-beauvais",
+      "name": "Garcelle Beauvais",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "sequin-orange-locket", "seasons": [10], "tagline": "Life is an audition and, honey, I am getting that part." },
+        { "id": "gilded-peach-lily", "seasons": [11], "tagline": "If you want a starring role in my life, you better drop the act." },
+        { "id": "sparkly-premiere-gardenia", "seasons": [12], "tagline": "I don't need the spotlight. I shine just fine." },
+        { "id": "peach-photoshoot-cabana", "seasons": [13], "tagline": "I may act for a living, but I never fall for a bad performance." },
+        { "id": "beaded-villa-glove", "seasons": [14], "tagline": "I've been in the game too long to play by someone else's rules." }
+      ]
+    },
+    {
+      "id": "satin-peach-curler",
+      "slug": "sutton-stracke",
+      "name": "Sutton Stracke",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "fringed-villa-eclair", "seasons": [11], "tagline": "Anyone who doubts my exquisite manners can kiss my exquisite derrière." },
+        { "id": "opal-finale-fascinator", "seasons": [12], "tagline": "If you want a seat at my table, you best mind your manners." },
+        { "id": "metallic-glam-settee", "seasons": [13], "tagline": "Who needs a knight in shining armor when you have your own horse?" },
+        { "id": "jade-tagline-bangle", "seasons": [14], "tagline": "I honor my fine Southern manners by putting you in your place." },
+        { "id": "velvet-peach-pillow", "seasons": [15], "tagline": "I might live on a main road, I definitely bring main character energy." }
+      ]
+    },
+    {
+      "id": "ruffled-photoshoot-cape",
+      "slug": "crystal-kung-minkoff",
+      "name": "Crystal Kung Minkoff",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "feathered-photoshoot-tiara", "seasons": [11], "tagline": "Hollywood is full of pretenders, and I slay them all!" },
+        { "id": "feathered-soiree-jukebox", "seasons": [12], "tagline": "They say talk is cheap, but in Beverly Hills, it can cost you." },
+        { "id": "peach-terrace-kimono", "seasons": [13], "tagline": "They say wisdom comes with age, but I'm proving otherwise." }
+      ]
+    },
+    {
+      "id": "blush-launch-brooch",
+      "slug": "diana-jenkins",
+      "name": "Diana Jenkins",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "silk-villa-bouquet", "seasons": [12], "tagline": "The only thing better than having it all is having even more." }
+      ]
+    },
+    {
+      "id": "frosted-encore-parasol",
+      "slug": "annemarie-wiley",
+      "name": "Annemarie Wiley",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "gilded-apple-souffle", "seasons": [13], "tagline": "I may put you to sleep for a living, but I always keep one eye open." }
+      ]
+    },
+    {
+      "id": "blush-chateau-staircase",
+      "slug": "bozoma-saint-john",
+      "name": "Bozoma Saint John",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "silver-diamond-perfume", "seasons": [14], "tagline": "Introducing the greatest product I've ever marketed: myself." },
+        { "id": "fringed-launch-chaise", "seasons": [15], "tagline": "I turn ambition into an artform, and I am the masterpiece." }
+      ]
+    },
+    {
+      "id": "beaded-spotlight-headband",
+      "slug": "rachel-zoe",
+      "name": "Rachel Zoe",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "opal-spotlight-doily", "seasons": [15], "tagline": "I die for fashion, but now I'm living for me." }
+      ]
+    },
+    {
+      "id": "sparkly-gala-teacup",
+      "slug": "amanda-frances",
+      "name": "Amanda Frances",
+      "franchise": "bh",
+      "taglines": [
+        { "id": "ivory-premiere-garland", "seasons": [15], "tagline": "I didn't marry into money, I manifested it." }
+      ]
+    },
+
+    {
+      "id": "mirrored-peach-organza",
+      "slug": "bethenny-frankel",
+      "name": "Bethenny Frankel",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "cherry-tagline-souffle", "seasons": [1, 2, 3], "tagline": "New York City is my playground." },
+        { "id": "amber-diamond-chaise", "seasons": [7], "tagline": "I'm not a Housewife, but I am real." },
+        { "id": "glossy-montage-locket", "seasons": [8], "tagline": "If you can't handle the truth, you can't handle me." },
+        { "id": "ruffled-luncheon-fascinator", "seasons": [9], "tagline": "If you're gonna take a shot at this B, you better not miss." },
+        { "id": "sparkly-glam-limousine", "seasons": [10], "tagline": "It's great to be successful. But it's even better to B Strong." },
+        { "id": "silk-premiere-cabana", "seasons": [11], "tagline": "When life gives me limes, I make margaritas." }
+      ]
+    },
+    {
+      "id": "frosted-finale-tote",
+      "slug": "jill-zarin",
+      "name": "Jill Zarin",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "emerald-flashback-brocade", "seasons": [1, 2, 3], "tagline": "I run with a fabulous circle of people." },
+        { "id": "iridescent-terrace-garland", "seasons": [4], "tagline": "Good or bad, I know who I am and I own it." }
+      ]
+    },
+    {
+      "id": "cobalt-orange-locket",
+      "slug": "luann-de-lesseps",
+      "name": "LuAnn de Lesseps",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "pastel-montage-dahlia", "seasons": [1, 2, 3], "tagline": "I never feel guilty about being privileged." },
+        { "id": "marble-apple-scrunchie", "seasons": [4], "tagline": "I thought I had it good before, but I'm just getting started." },
+        { "id": "sparkly-chateau-corsage", "seasons": [5], "tagline": "To some people, living elegantly just comes naturally." },
+        { "id": "rose-confessional-confetti", "seasons": [7], "tagline": "One should know... never count out the Countess." },
+        { "id": "neon-launch-pearl", "seasons": [8], "tagline": "If you can't be cool, you can't be with the Countess." },
+        { "id": "scalloped-cameo-tulip", "seasons": [9], "tagline": "The only title I'd trade Countess for is wife." },
+        { "id": "silver-finale-curler", "seasons": [10], "tagline": "The most interesting people make the best headlines." },
+        { "id": "emerald-terrace-kaftan", "seasons": [11], "tagline": "I plead guilty... to being fabulous." },
+        { "id": "emerald-diamond-chiffon", "seasons": [12], "tagline": "I rise above the drama, and won't settle for the lower level." },
+        { "id": "ruby-photoshoot-hatbox", "seasons": [13], "tagline": "Of all my vices, being glamorous is one I'll never give up." }
+      ]
+    },
+    {
+      "id": "marble-soiree-clutch",
+      "slug": "ramona-singer",
+      "name": "Ramona Singer",
+      "franchise": "ny",
+      "eye_color": {
+        "color": "dark-brown",
+        "basis": "photo_sampled",
+        "sources": [
+          { "source_url": "https://www.bravotv.com/people/ramona-singer", "note": "RHUGT S4 cast portrait, close and lit. The iris samples about 5B3824 and 513127." },
+          { "source_url": "https://www.bravotv.com/the-real-housewives-of-new-york-city/photos/she-gets-so-ramotional-our-fave-ramona-faces", "note": "S6 stills, wide-eyed. Plainly dark brown, though small; the iris samples about 5B4138 to 693D38." }
+        ]
+      },
+      "taglines": [
+        { "id": "silk-confessional-magnolia", "seasons": [1, 2, 3], "tagline": "I like making my own money, I find that an aphrodisiac." },
+        { "id": "cobalt-glam-slipper", "seasons": [4], "tagline": "If people can't handle the truth, it's really not my problem." },
+        { "id": "frosted-photoshoot-kimono", "seasons": [5], "tagline": "I'm not afraid to say what everyone else is thinking." },
+        { "id": "fringed-apple-curler", "seasons": [6], "tagline": "Get the Pinot ready, because it's Turtle Time!" },
+        { "id": "crystal-villa-quill", "seasons": [7], "tagline": "I know I'm a piece of work, but now, I'm a work in progress." },
+        { "id": "blush-cameo-organza", "seasons": [8], "tagline": "Like a fine wine, I just get better with time." },
+        { "id": "peach-gala-lipstick", "seasons": [9], "tagline": "I'm an acquired taste. If you don't like me, acquire some taste!" },
+        { "id": "silver-apple-sconce", "seasons": [10], "tagline": "Age is an issue of mind over matter: If you don't mind, it doesn't matter!" },
+        { "id": "metallic-apple-curler", "seasons": [11], "tagline": "The only thing I'll settle for is more." },
+        { "id": "sparkly-gala-candle", "seasons": [12], "tagline": "So what if I'm self involved, who else should I be involved with?" },
+        { "id": "satin-soiree-hydrangea", "seasons": [13], "tagline": "I may say the wrong thing, but my intentions are always right." }
+      ]
+    },
+    {
+      "id": "emerald-glam-staircase",
+      "slug": "alex-mccord",
+      "name": "Alex McCord",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "glossy-diamond-locket", "seasons": [1, 2, 3], "tagline": "To a certain group of people in New York, status is everything." },
+        { "id": "amber-spotlight-atomizer", "seasons": [4], "tagline": "I've always had opinions, but now people know it." }
+      ]
+    },
+    {
+      "id": "cherry-marquee-tote",
+      "slug": "kelly-bensimon",
+      "name": "Kelly Bensimon",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "ruffled-confessional-sash", "seasons": [2, 3], "tagline": "I've created a great life, and I love living it." },
+        { "id": "gilded-peach-jukebox", "seasons": [4], "tagline": "I'm living the American Dream, one mistake at a time." }
+      ]
+    },
+    {
+      "id": "lacquered-spotlight-dahlia",
+      "slug": "sonja-morgan",
+      "name": "Sonja Morgan",
+      "franchise": "ny",
+      "eye_color": {
+        "color": "gray",
+        "basis": "by_eye",
+        "sources": [
+          { "source_url": "https://www.bravotv.com/the-real-housewives-of-new-york-city/style-living/how-to-recreate-sonja-morgan-season-12-reunion-makeup", "note": "S12 reunion makeup close-ups, 2020. Gray-green under warm studio light, gray in profile, blue-gray in daylight. Samples ran warm from the light, so the read is by eye." }
+        ]
+      },
+      "taglines": [
+        { "id": "sparkly-encore-palette", "seasons": [3, 4], "tagline": "I have a taste for luxury, and luxury has a taste for me." },
+        { "id": "velvet-apple-hatbox", "seasons": [5], "tagline": "A little Sonja will spice up any party." },
+        { "id": "cherry-orange-gown", "seasons": [6], "tagline": "Sometimes Sonja has to go commando. What can I say?" },
+        { "id": "pearly-spotlight-tulip", "seasons": [7], "tagline": "My yacht may have sailed, but my ship is comin' in." },
+        { "id": "shimmering-orange-organza", "seasons": [8], "tagline": "If being Sonja is so wrong, why does it feel so right?" },
+        { "id": "cobalt-finale-robe", "seasons": [9], "tagline": "There's nothing gray about my gardens." },
+        { "id": "cobalt-villa-cufflink", "seasons": [10], "tagline": "I'm not just a last name. I'm a legacy." },
+        { "id": "lacquered-luncheon-corsage", "seasons": [11], "tagline": "People call me over the top, but lately I prefer being a bottom." },
+        { "id": "sequin-confessional-staircase", "seasons": [12], "tagline": "I'm no one's arm candy, I'm the whole bowl of sugar." },
+        { "id": "rose-finale-fascinator", "seasons": [13], "tagline": "Just like New York City, Sonja Morgan never goes out of style." }
+      ]
+    },
+    {
+      "id": "lacquered-glam-fountain",
+      "slug": "cindy-barshop",
+      "name": "Cindy Barshop",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "golden-marquee-curler", "seasons": [4], "tagline": "I have everything I've ever wanted, and it's all on my own terms." }
+      ]
+    },
+    {
+      "id": "plush-spotlight-candelabra",
+      "slug": "carole-radziwill",
+      "name": "Carole Radziwill",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "silk-launch-organza", "seasons": [5], "tagline": "I may be a princess, but I'm definitely not a drama queen." },
+        { "id": "sequin-reunion-birdcage", "seasons": [6], "tagline": "If you're going to talk about me behind my back, at least check out my great ass." },
+        { "id": "scalloped-villa-lipstick", "seasons": [7], "tagline": "All play and no work makes me a happy girl." },
+        { "id": "quilted-chateau-parasol", "seasons": [8], "tagline": "I plan for the future, but live in the moment." },
+        { "id": "beaded-orange-ribbon", "seasons": [9], "tagline": "In the politics of friendship, I win the popular vote." },
+        { "id": "sparkly-diamond-tulle", "seasons": [10], "tagline": "In the marathon of life, loyalty is everything." },
+        { "id": "velvet-tagline-pillow", "seasons": [16], "tagline": "I may be a Boomer, but I still got a great ass." }
+      ]
+    },
+    {
+      "id": "mirrored-diamond-settee",
+      "slug": "heather-thomson",
+      "name": "Heather Thomson",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "rose-tagline-cufflink", "seasons": [5], "tagline": "My success is built on making women look and feel their best. Holla!" },
+        { "id": "satin-confessional-tulle", "seasons": [6], "tagline": "A true New Yorker never backs down, and I'm no exception. Holla!" },
+        { "id": "silver-confessional-veil", "seasons": [7], "tagline": "I'm stronger than anything in my way. Holla!" }
+      ]
+    },
+    {
+      "id": "mirrored-cameo-tulle",
+      "slug": "aviva-drescher",
+      "name": "Aviva Drescher",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "sparkly-villa-veil", "seasons": [5], "tagline": "Never underestimate a woman born and raised in New York City." },
+        { "id": "pleated-terrace-candelabra", "seasons": [6], "tagline": "When people tell me I'm fake, I know they're just pulling my leg." }
+      ]
+    },
+    {
+      "id": "lacquered-gala-locket",
+      "slug": "kristen-taekman",
+      "name": "Kristen Taekman",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "sequin-spotlight-chandelier", "seasons": [6], "tagline": "I may not be the sharpest tool in the shed, but I'm pretty!" },
+        { "id": "sequin-cameo-pearl", "seasons": [7], "tagline": "Pretty is smarter than you think." }
+      ]
+    },
+    {
+      "id": "sequin-launch-fan",
+      "slug": "dorinda-medley",
+      "name": "Dorinda Medley",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "blush-cameo-mascara", "seasons": [7], "tagline": "I give Uptown a whole new attitude." },
+        { "id": "amber-chateau-balloon", "seasons": [8], "tagline": "Diamonds aren't a girl's best friend, martinis are!" },
+        { "id": "sparkly-gala-lily", "seasons": [9], "tagline": "I tell it how it is, but I always keep it nice." },
+        { "id": "fringed-launch-mascara", "seasons": [10], "tagline": "I have a big heart, but little patience." },
+        { "id": "beaded-terrace-palette", "seasons": [11], "tagline": "If you've got a problem with me, it's your problem!" },
+        { "id": "ruby-finale-fan", "seasons": [12], "tagline": "Like a mint in my mouth, I can be a bit fresh." }
+      ]
+    },
+    {
+      "id": "opal-glam-fountain",
+      "slug": "jules-wainstein",
+      "name": "Jules Wainstein",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "neon-montage-pillow", "seasons": [8], "tagline": "A Jew and an Asian walked into a bar, then they had me!" }
+      ]
+    },
+    {
+      "id": "scalloped-soiree-robe",
+      "slug": "tinsley-mortimer",
+      "name": "Tinsley Mortimer",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "ruffled-photoshoot-dahlia", "seasons": [9], "tagline": "A good set of lashes can fix anything... even a mugshot." },
+        { "id": "glitter-soiree-fascinator", "seasons": [10], "tagline": "Come on, why cook when I can order room service?!" },
+        { "id": "silver-montage-palette", "seasons": [11], "tagline": "Game, set, now, I need a match." }
+      ]
+    },
+    {
+      "id": "rose-cameo-locket",
+      "slug": "leah-mcsweeney",
+      "name": "Leah McSweeney",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "quilted-villa-compact", "seasons": [12], "tagline": "I'll say sorry for what I've done, but never for who I am." },
+        { "id": "feathered-terrace-postcard", "seasons": [13], "tagline": "I'm sex positive and BS negative." }
+      ]
+    },
+    {
+      "id": "pearly-montage-sunhat",
+      "slug": "eboni-k-williams",
+      "name": "Eboni K. Williams",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "quilted-cameo-quill", "seasons": [13], "tagline": "I've had to work twice as hard for half as much, but now I'm coming for everything." }
+      ]
+    },
+    {
+      "id": "amber-photoshoot-compact",
+      "slug": "ubah-hassan",
+      "name": "Ubah Hassan",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "pleated-diamond-glove", "seasons": [14], "tagline": "The secret ingredient? Darling, it's me." },
+        { "id": "plush-gala-fascinator", "seasons": [15], "tagline": "Love looks good on me, but darling, what doesn't?" }
+      ]
+    },
+    {
+      "id": "silk-peach-boa",
+      "slug": "jenna-lyons",
+      "name": "Jenna Lyons",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "pearly-flashback-kaftan", "seasons": [14], "tagline": "My lashes may be fake but I definitely keep it real." },
+        { "id": "pearly-encore-postcard", "seasons": [15], "tagline": "Not everyone can be Jenna F***ing Lyons, but they can try." }
+      ]
+    },
+    {
+      "id": "mirrored-encore-tulle",
+      "slug": "erin-lichy",
+      "name": "Erin Lichy",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "silver-chateau-cushion", "seasons": [14], "tagline": "I'm a true New Yorker. The only bull I'll take is by the horns." },
+        { "id": "glossy-confessional-balloon", "seasons": [15], "tagline": "In the cocktail of life, a New Yorker is never shaken nor stirred." },
+        { "id": "ruby-luncheon-compact", "seasons": [16], "tagline": "In New York, secrets are currency, and honey, I am rich." }
+      ]
+    },
+    {
+      "id": "mirrored-terrace-teacup",
+      "slug": "jessel-taank",
+      "name": "Jessel Taank",
+      "franchise": "ny",
+      "eye_color": {
+        "color": "dark-brown",
+        "basis": "photo_sampled",
+        "sources": [
+          { "source_url": "https://www.bravotv.com/the-daily-dish/the-real-housewives-of-new-york-city-season-15-reunion-looks-photos", "note": "S15 reunion portrait. Lit and front-facing. The iris median samples about 4A2920." }
+        ]
+      },
+      "taglines": [
+        { "id": "coral-montage-candle", "seasons": [14], "tagline": "I always bring the flavor. It's not my fault you don't have any taste." },
+        { "id": "golden-encore-lipstick", "seasons": [15], "tagline": "I'm not up and coming, I'm already there." },
+        { "id": "opal-premiere-chaise", "seasons": [16], "tagline": "It's not my fault you can't tell an accent from an attitude." }
+      ]
+    },
+    {
+      "id": "satin-cameo-staircase",
+      "slug": "sai-de-silva",
+      "name": "Sai De Silva",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "peach-encore-balloon", "seasons": [14], "tagline": "In New York, there's a lot of bad apples but I'm the baddest of the bunch." },
+        { "id": "glossy-flashback-gardenia", "seasons": [15], "tagline": "I may be hungry, but at least I'm not thirsty." },
+        { "id": "scalloped-cameo-chandelier", "seasons": [16], "tagline": "Manhattan gave me the address, but Brooklyn gave me the attitude." }
+      ]
+    },
+    {
+      "id": "pleated-terrace-veil",
+      "slug": "brynn-whitfield",
+      "name": "Brynn Whitfield",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "silk-launch-boa", "seasons": [14], "tagline": "I love to laugh, but make me mad and I'll date your dad." },
+        { "id": "sequin-luncheon-veil", "seasons": [15], "tagline": "Why date their dad, when you can just be mother?" }
+      ]
+    },
+    {
+      "id": "mirrored-peach-peony",
+      "slug": "racquel-chevremont",
+      "name": "Racquel Chevremont",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "sapphire-terrace-orchid", "seasons": [15], "tagline": "Just like a painting, you'll need a couple of looks to figure me out." }
+      ]
+    },
+    {
+      "id": "amber-premiere-cape",
+      "slug": "daisy-toye",
+      "name": "Daisy Toye",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "satin-spotlight-lipstick", "seasons": [16], "tagline": "In my line of work, I charge extra for two faces." }
+      ]
+    },
+    {
+      "id": "glossy-orange-hatbox",
+      "slug": "hailey-glassman",
+      "name": "Hailey Glassman",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "sequin-launch-monogram", "seasons": [16], "tagline": "When they go low, I get high." }
+      ]
+    },
+    {
+      "id": "marble-premiere-locket",
+      "slug": "erika-hammond",
+      "name": "Erika Hammond",
+      "franchise": "ny",
+      "taglines": [
+        { "id": "shimmering-flashback-satchel", "seasons": [16], "tagline": "Friendships come and go. Tacos? They're forever." }
+      ]
+    },
+    {
+      "id": "glitter-tagline-teacup",
+      "slug": "gizelle-bryant",
+      "name": "Gizelle Bryant",
+      "franchise": "potomac",
+      "taglines": [
+        { "id": "lilac-flashback-eclair", "seasons": [1], "tagline": "The word on the street is, that I'm the word on the street." },
+        { "id": "sparkly-launch-lipstick", "seasons": [2], "tagline": "Word on the street is... I'm still the word on the street." },
+        { "id": "ruby-apple-satchel", "seasons": [3], "tagline": "If you can't handle me being the word on the street, then stop listening." },
+        { "id": "silk-villa-runway", "seasons": [4], "tagline": "I'm the baddest thing walkin' and the smartest one talkin'." },
+        { "id": "crystal-luncheon-taffeta", "seasons": [5], "tagline": "I'm still the baddest thing walking, and the most anointed one talking." },
+        { "id": "amber-peach-tote", "seasons": [6], "tagline": "The secret to this pretty face is staying in the shade." },
+        { "id": "peach-marquee-gardenia", "seasons": [7], "tagline": "I'm pretty, petty, and always sitting on ready." },
+        { "id": "blush-premiere-rhinestone", "seasons": [8], "tagline": "I'm no angel, but give me some grace and you'll learn to adore me." },
+        { "id": "emerald-orange-tulle", "seasons": [9], "tagline": "When the girls are away, it's time for Gizelle to play." },
+        { "id": "pearly-cameo-souffle", "seasons": [10], "tagline": "When the nest is empty, it's time for naked, grown, and sexy." },
+        { "id": "sequin-terrace-cufflink", "seasons": [11], "tagline": "I can honor my past and still read you in the present." }
+      ]
+    },
+    {
+      "id": "crystal-marquee-headband",
+      "slug": "karen-huger",
+      "name": "Karen Huger",
+      "franchise": "potomac",
+      "taglines": [
+        { "id": "quilted-orange-magnolia", "seasons": [1], "tagline": "In Potomac, it's not about who you know, it's who you are. And I'm everything." },
+        { "id": "fringed-encore-cushion", "seasons": [2], "tagline": "Potomac put me on a pedestal, and the view is spectacular." },
+        { "id": "glitter-peach-taffeta", "seasons": [3], "tagline": "Baby don't believe what you hear. The grande dame still holds center court." },
+        { "id": "opal-villa-balloon", "seasons": [4], "tagline": "You can try to tear me down, but the Grande Dame never crumbles." },
+        { "id": "pastel-chateau-mascara", "seasons": [5], "tagline": "Honey, the grande dame don't repeat history, she makes it." },
+        { "id": "peach-diamond-cufflink", "seasons": [6], "tagline": "The grande dame can never be duplicated, imitated, or intimidated." },
+        { "id": "opal-marquee-robe", "seasons": [7], "tagline": "Just like a three-wick, I burn slow and never waver." },
+        { "id": "peach-tagline-orchid", "seasons": [8], "tagline": "I don't ride the fence honey, I am the fence. You ride me." },
+        { "id": "sparkly-diamond-ribbon", "seasons": [9], "tagline": "Darling, I am the fence... and the gatekeeper." },
+        { "id": "scalloped-soiree-ottoman", "seasons": [11], "tagline": "I found my higher self, but humbling you? No problem." }
+      ]
+    },
+    {
+      "id": "sparkly-marquee-hydrangea",
+      "slug": "katie-rost",
+      "name": "Katie Rost",
+      "franchise": "potomac",
+      "taglines": [
+        { "id": "cherry-luncheon-kaftan", "seasons": [1], "tagline": "I'm a ball and gala girl. It's my legacy and my calling." }
+      ]
+    },
+    {
+      "id": "rose-terrace-clutch",
+      "slug": "robyn-dixon",
+      "name": "Robyn Dixon",
+      "franchise": "potomac",
+      "taglines": [
+        { "id": "silk-cameo-locket", "seasons": [1], "tagline": "I don't have a cookie cutter life and I'm not apologizing for it." },
+        { "id": "satin-villa-mascara", "seasons": [2], "tagline": "Don't let the green eyes fool you, I'm as real as they come." },
+        { "id": "iridescent-peach-organza", "seasons": [3], "tagline": "Life has its ups and downs, but my game is on the rebound." },
+        { "id": "feathered-terrace-ottoman", "seasons": [4], "tagline": "The shorter my hair, the shorter my patience." },
+        { "id": "pastel-terrace-tulle", "seasons": [5], "tagline": "I live in a house full of ballers, but I never get played." },
+        { "id": "marble-cameo-glove", "seasons": [6], "tagline": "I may keep you waiting, but trust me, I'm worth it." },
+        { "id": "ruffled-spotlight-curler", "seasons": [7], "tagline": "When it comes to the truth, I always arrive on time." },
+        { "id": "golden-flashback-lantern", "seasons": [8], "tagline": "I just took a DNA test and it turns out I 100 percent don't care." }
+      ]
+    },
+    {
+      "id": "metallic-encore-lily",
+      "slug": "charrisse-jackson-jordan",
+      "name": "Charrisse Jackson-Jordan",
+      "franchise": "potomac",
+      "taglines": [
+        { "id": "cherry-confessional-ribbon", "seasons": [1], "tagline": "If I don't know who you are, then you're not worth knowing." },
+        { "id": "metallic-spotlight-souffle", "seasons": [2], "tagline": "Why cry over spilled milk, when you can laugh over champagne?" }
+      ]
+    },
+    {
+      "id": "cherry-montage-cabana",
+      "slug": "ashley-darby",
+      "name": "Ashley Darby",
+      "franchise": "potomac",
+      "taglines": [
+        { "id": "frosted-chateau-vanity", "seasons": [1], "tagline": "Throw this spring chicken into the cougar's den and let the games begin." },
+        { "id": "sapphire-marquee-ottoman", "seasons": [2], "tagline": "I've played by Potomac rules, but now it's time to play by my own." },
+        { "id": "ivory-flashback-eclair", "seasons": [3], "tagline": "You may say I cause trouble, but I say I keep things interesting." },
+        { "id": "coral-orange-souffle", "seasons": [4], "tagline": "Karma is a bitch. But luckily, I'm on her good side." },
+        { "id": "pleated-finale-hatbox", "seasons": [5], "tagline": "Now that I got my baby, that's the only crap I take." },
+        { "id": "feathered-encore-chaise", "seasons": [6], "tagline": "The only thing messier than two boys is me." },
+        { "id": "sapphire-orange-tote", "seasons": [7], "tagline": "You may think you know my story, but there's always a plot twist." },
+        { "id": "rose-apple-runway", "seasons": [8], "tagline": "You don't have to dig for gold when you shine this bright." },
+        { "id": "golden-encore-slipper", "seasons": [9], "tagline": "From kiddie pools to the dating pool, I'm ready to dive in." },
+        { "id": "pleated-flashback-birdcage", "seasons": [10], "tagline": "This cherry blossom is ready for her second bloom." },
+        { "id": "blush-soiree-ottoman", "seasons": [11], "tagline": "I'm no one's sugar mama, but I still make life sweet." }
+      ]
+    },
+    {
+      "id": "mint-apple-atomizer",
+      "slug": "monique-samuels",
+      "name": "Monique Samuels",
+      "franchise": "potomac",
+      "taglines": [
+        { "id": "ivory-chateau-chaise", "seasons": [2], "tagline": "I may be rough around the edges, but baby, so are diamonds." },
+        { "id": "ruby-gala-sconce", "seasons": [3], "tagline": "You'll never put me in a box because I'm the whole darn package." },
+        { "id": "mint-marquee-gardenia", "seasons": [4], "tagline": "I've traded in my umbrella. It's all gold at the end of this rainbow." },
+        { "id": "jade-soiree-chiffon", "seasons": [5], "tagline": "Maybe if you tried a little harder, you wouldn't have to try me." }
+      ]
+    },
+    {
+      "id": "silver-chateau-atomizer",
+      "slug": "candiace-dillard-bassett",
+      "name": "Candiace Dillard Bassett",
+      "franchise": "potomac",
+      "credited_as": ["Candiace Dillard"],
+      "taglines": [
+        { "id": "emerald-premiere-organza", "seasons": [3], "tagline": "Life is a pageant and I'm in it to win it." },
+        { "id": "mirrored-premiere-rhinestone", "seasons": [4], "tagline": "Now that I'm marrying my prince, this sleeping beauty is woke." },
+        { "id": "ruby-tagline-sash", "seasons": [5], "tagline": "Reading is fundamental, and, honey, I own the library." },
+        { "id": "blush-cameo-pearl", "seasons": [6], "tagline": "My blessings are many, and my patience is none." },
+        { "id": "ruffled-terrace-runway", "seasons": [7], "tagline": "My vocals are clean, but my reads are for filth." },
+        { "id": "ruffled-flashback-cushion", "seasons": [8], "tagline": "When they go low I just hit high notes." }
+      ]
+    },
+    {
+      "id": "cobalt-premiere-tiara",
+      "slug": "wendy-osefo",
+      "name": "Wendy Osefo",
+      "franchise": "potomac",
+      "taglines": [
+        { "id": "silver-glam-robe", "seasons": [5], "tagline": "The professor has arrived, and class is officially in session." },
+        { "id": "iridescent-finale-lily", "seasons": [6], "tagline": "This professor doesn't just grade on the curve; she sets the curve." },
+        { "id": "glitter-flashback-jukebox", "seasons": [7], "tagline": "I'm a Nigerian queen with no time for mean." },
+        { "id": "blush-peach-veil", "seasons": [8], "tagline": "If you're gonna test this professor, be prepared to fail." },
+        { "id": "silver-diamond-lily", "seasons": [9], "tagline": "I quit grading, but I'm still passing judgements." },
+        { "id": "pearly-tagline-corsage", "seasons": [10], "tagline": "I put the high in higher education." },
+        { "id": "ruby-orange-chiffon", "seasons": [11], "tagline": "All eyes are on me, so I might as well give them a show." }
+      ]
+    },
+    {
+      "id": "sequin-tagline-veil",
+      "slug": "mia-thornton",
+      "name": "Mia Thornton",
+      "franchise": "potomac",
+      "taglines": [
+        { "id": "mirrored-confessional-settee", "seasons": [6], "tagline": "If you want to pop off, I'll be happy to get you adjusted." },
+        { "id": "ruffled-peach-cushion", "seasons": [7], "tagline": "I may not remember everything, but you'll never forget me." },
+        { "id": "coral-reunion-bouquet", "seasons": [8], "tagline": "It doesn't matter the size of our home, I'm always the queen of this castle." },
+        { "id": "cobalt-spotlight-clutch", "seasons": [9], "tagline": "Marriage can be temporary, but Inc is permanent." }
+      ]
+    },
+    {
+      "id": "marble-peach-scrunchie",
+      "slug": "nneka-ihim",
+      "name": "Nneka Ihim",
+      "franchise": "potomac",
+      "taglines": [
+        { "id": "mint-diamond-sash", "seasons": [8], "tagline": "Nigeria raised me, LA made me, and Potomac will remember me." }
+      ]
+    },
+    {
+      "id": "ruby-finale-lily",
+      "slug": "stacey-rusch",
+      "name": "Stacey Rusch",
+      "franchise": "potomac",
+      "taglines": [
+        { "id": "gilded-finale-confetti", "seasons": [9], "tagline": "I know how to host a show... and steal one too." },
+        { "id": "sparkly-terrace-clutch", "seasons": [10], "tagline": "Some people believe the lies, but still I rise." },
+        { "id": "glossy-diamond-teacup", "seasons": [11], "tagline": "Talk about depth. Talk about truth. Talk about Stacey!" }
+      ]
+    },
+    {
+      "id": "metallic-flashback-brooch",
+      "slug": "keiarna-stewart",
+      "name": "Keiarna Stewart",
+      "franchise": "potomac",
+      "taglines": [
+        { "id": "glossy-spotlight-kimono", "seasons": [9], "tagline": "I own a business, I mind my business, and I stand on business." },
+        { "id": "iridescent-encore-eclair", "seasons": [10], "tagline": "Beauty is my business, but getting you together is my specialty." }
+      ]
+    },
+    {
+      "id": "lacquered-orange-orchid",
+      "slug": "tia-glover",
+      "name": "Tia Glover",
+      "franchise": "potomac",
+      "taglines": [
+        { "id": "feathered-confessional-scrunchie", "seasons": [10], "tagline": "You can only clutch pearls if you have them, and, darling, I have loads." },
+        { "id": "silver-luncheon-gown", "seasons": [11], "tagline": "I may speak the King's English, but I will never entertain a jester." }
+      ]
+    },
+    {
+      "id": "mirrored-flashback-taffeta",
+      "slug": "angel-massie",
+      "name": "Angel Massie",
+      "franchise": "potomac",
+      "taglines": [
+        { "id": "velvet-premiere-postcard", "seasons": [10], "tagline": "Hell hath no fury like an Angel scorned." }
+      ]
+    },
+    {
+      "id": "pastel-encore-magnolia",
+      "slug": "courtney-ajinca",
+      "name": "Courtney Ajinça",
+      "franchise": "potomac",
+      "taglines": [
+        { "id": "glitter-diamond-satchel", "seasons": [11], "tagline": "I came to spread the word, and maybe a little gospel." }
+      ]
+    },
+    {
+      "id": "sparkly-marquee-veil",
+      "slug": "vicki-gunvalson",
+      "name": "Vicki Gunvalson",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "peach-chateau-saucer", "seasons": [1], "tagline": "I don't wanna get old." },
+        { "id": "opal-orange-slipper", "seasons": [2], "tagline": "Here's to not being fake." },
+        { "id": "scalloped-diamond-tiara", "seasons": [3], "tagline": "Everything's got to be huge, large, and grand." },
+        { "id": "lacquered-finale-doily", "seasons": [4], "tagline": "I want the power and the money, and I want them both." },
+        { "id": "lilac-reunion-birdcage", "seasons": [5], "tagline": "I love my family, I love my work, I love my life." },
+        { "id": "ruffled-glam-chiffon", "seasons": [6], "tagline": "I make my own money, and I make my own rules." },
+        { "id": "cobalt-apple-headband", "seasons": [7], "tagline": "My tank is full and I'm driving into my future." },
+        { "id": "glossy-glam-palette", "seasons": [8], "tagline": "I'm my own boss and it's time for a raise." },
+        { "id": "feathered-cameo-saucer", "seasons": [9], "tagline": "I make my own rules, so don't expect me to follow yours." },
+        { "id": "feathered-encore-runway", "seasons": [10], "tagline": "I am the OG of the O.C.; everyone else is just a copy." },
+        { "id": "satin-soiree-dahlia", "seasons": [11], "tagline": "Before you judge me, you better be perfect." },
+        { "id": "rose-gala-brooch", "seasons": [12], "tagline": "I go big or go home and I am not going home." },
+        { "id": "mint-tagline-palette", "seasons": [13], "tagline": "The fun bus is leaving, and this time I'm in the driver's seat." },
+        { "id": "mint-photoshoot-candelabra", "seasons": [20], "tagline": "Wives come and go, but legends? We whoop it up forever." }
+      ]
+    },
+    {
+      "id": "iridescent-marquee-hatbox",
+      "slug": "jeana-keough",
+      "name": "Jeana Keough",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "feathered-launch-clutch", "seasons": [1], "tagline": "It's just money, you can't take it with you." },
+        { "id": "pastel-premiere-rhinestone", "seasons": [2], "tagline": "I have always wanted things. I crave money." },
+        { "id": "opal-apple-atomizer", "seasons": [3], "tagline": "I love money and now I'm loving life." },
+        { "id": "satin-photoshoot-sunhat", "seasons": [4], "tagline": "It doesn't matter what happens in life, I do it my way." },
+        { "id": "lilac-tagline-sash", "seasons": [5], "tagline": "Money is a girl's best friend, and I love friends." }
+      ]
+    },
+    {
+      "id": "rose-glam-vanity",
+      "slug": "lauri-peterson",
+      "name": "Lauri Peterson",
+      "franchise": "oc",
+      "credited_as": ["Lauri Waring"],
+      "taglines": [
+        { "id": "silk-soiree-camellia", "seasons": [1], "tagline": "Are the police involved?" },
+        { "id": "fringed-soiree-macaron", "seasons": [2], "tagline": "I was poor, I was rich, I was poor again and you know what? Having money is easier." },
+        { "id": "shimmering-finale-macaron", "seasons": [3], "tagline": "You know what, I'm living the O.C. lifestyle again. I feel like royalty." }
+      ]
+    },
+    {
+      "id": "cobalt-diamond-balloon",
+      "slug": "jo-de-la-rosa",
+      "name": "Jo De La Rosa",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "pleated-peach-pillow", "seasons": [1], "tagline": "He's pretty much keeping me." },
+        { "id": "cherry-luncheon-mascara", "seasons": [2], "tagline": "I deserve only the best... I'm worth it!" }
+      ]
+    },
+    {
+      "id": "gilded-terrace-dahlia",
+      "slug": "kimberly-bryant",
+      "name": "Kimberly Bryant",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "pearly-encore-glove", "seasons": [1], "tagline": "85 percent of the women around here have had breast implants." }
+      ]
+    },
+    {
+      "id": "beaded-premiere-gardenia",
+      "slug": "tammy-knickerbocker",
+      "name": "Tammy Knickerbocker",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "gilded-finale-slipper", "seasons": [2], "tagline": "I don't let my kids or my exes drive me crazy." },
+        { "id": "opal-launch-fascinator", "seasons": [3], "tagline": "No matter how much money you have, you can always rely on others." }
+      ]
+    },
+    {
+      "id": "pastel-gala-garland",
+      "slug": "tamra-judge",
+      "name": "Tamra Judge",
+      "franchise": "oc",
+      "credited_as": ["Tamra Barney"],
+      "taglines": [
+        { "id": "coral-chateau-ottoman", "seasons": [3], "tagline": "I'm the hottest housewife in Orange County." },
+        { "id": "coral-marquee-clutch", "seasons": [4], "tagline": "I'm not the new girl anymore, so watch out." },
+        { "id": "mirrored-marquee-anklet", "seasons": [5], "tagline": "Housewives come younger, but they don't come hotter." },
+        { "id": "amber-marquee-souffle", "seasons": [6], "tagline": "I'm done being a trophy wife, freedom only makes me hotter." },
+        { "id": "gilded-luncheon-hydrangea", "seasons": [7], "tagline": "I call the shots in my life now, and I have good aim." },
+        { "id": "coral-soiree-lily", "seasons": [8], "tagline": "The best thing about starting over is never looking back." },
+        { "id": "silver-reunion-cape", "seasons": [9], "tagline": "I'm not getting older, I'm just getting bolder." },
+        { "id": "golden-orange-taffeta", "seasons": [10], "tagline": "Boldness comes at a cost, and I'm willing to pay." },
+        { "id": "neon-peach-brooch", "seasons": [11], "tagline": "My faith is strong, and my ass isn't bad either." },
+        { "id": "glitter-tagline-ribbon", "seasons": [12], "tagline": "I'm pint-sized, baptized, and highly prized." },
+        { "id": "marble-gala-palette", "seasons": [13], "tagline": "I'm still the hottest Housewife in Orange County, and the toughest, too." },
+        { "id": "lacquered-chateau-brocade", "seasons": [14], "tagline": "These days faith, family and fitness are the only 'F's' I give." },
+        { "id": "coral-luncheon-magnolia", "seasons": [17], "tagline": "I might have been on pause, but now, I'm ready to play." },
+        { "id": "pearly-soiree-curler", "seasons": [18], "tagline": "The only thing stuck up about me is my middle finger." },
+        { "id": "pleated-apple-boa", "seasons": [19], "tagline": "I'm taking a hard look in the mirror, and my reflection is still hot." },
+        { "id": "frosted-apple-ottoman", "seasons": [20], "tagline": "I'm still the hottest Housewife, and that's my opinion." }
+      ]
+    },
+    {
+      "id": "peach-luncheon-palette",
+      "slug": "quinn-fry",
+      "name": "Quinn Fry",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "frosted-orange-parasol", "seasons": [3], "tagline": "I love having a younger man in my life." }
+      ]
+    },
+    {
+      "id": "beaded-apple-fan",
+      "slug": "gretchen-rossi",
+      "name": "Gretchen Rossi",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "plush-flashback-headband", "seasons": [4], "tagline": "I love the bling, I love the jewelry, I love it all." },
+        { "id": "peach-luncheon-hatbox", "seasons": [5], "tagline": "I'm smart, I'm sexy, and I'm confident. Of course people are gonna talk about me." },
+        { "id": "mirrored-terrace-veil", "seasons": [6], "tagline": "Happiness means never having to apologize for being me." },
+        { "id": "mirrored-cameo-taffeta", "seasons": [7], "tagline": "Don't call me a princess, call me the boss." },
+        { "id": "crystal-photoshoot-slipper", "seasons": [8], "tagline": "When the going gets tough, I just get stronger and stronger." }
+      ]
+    },
+    {
+      "id": "mirrored-villa-tiara",
+      "slug": "lynne-curtin",
+      "name": "Lynne Curtin",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "shimmering-apple-ottoman", "seasons": [4], "tagline": "I'm just your typical Orange County housewife. I am obsessed with being young." },
+        { "id": "blush-photoshoot-brocade", "seasons": [5], "tagline": "It's not about how much money you have, it's about how good you look spending it." }
+      ]
+    },
+    {
+      "id": "scalloped-glam-scrunchie",
+      "slug": "alexis-bellino",
+      "name": "Alexis Bellino",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "rose-orange-veil", "seasons": [5], "tagline": "Am I high maintenance? Of course I am, look at me." },
+        { "id": "opal-spotlight-kaftan", "seasons": [6], "tagline": "God is my savior, my husband is my king, and my body? It's sinful." },
+        { "id": "blush-villa-peony", "seasons": [7], "tagline": "I thank God every day for my life, and you would, too." },
+        { "id": "neon-soiree-slipper", "seasons": [8], "tagline": "I don't need to prove anything. I know who I am and God does too." }
+      ]
+    },
+    {
+      "id": "silk-finale-saucer",
+      "slug": "peggy-tanous",
+      "name": "Peggy Tanous",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "tufted-peach-vanity", "seasons": [6], "tagline": "Soccer moms drive mini vans, but this girl drives a Bentley." }
+      ]
+    },
+    {
+      "id": "marble-luncheon-satchel",
+      "slug": "heather-dubrow",
+      "name": "Heather Dubrow",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "mirrored-marquee-chandelier", "seasons": [7], "tagline": "I may be married to a plastic surgeon, but I'm 98 percent real." },
+        { "id": "ivory-peach-cufflink", "seasons": [8], "tagline": "Whoever said blondes have more fun, hasn't met me." },
+        { "id": "fringed-diamond-candle", "seasons": [9], "tagline": "You may think I have it all, but I'm just getting started." },
+        { "id": "blush-luncheon-vanity", "seasons": [10], "tagline": "No one's life is perfect, but mine is pretty close." },
+        { "id": "silver-photoshoot-scrunchie", "seasons": [11], "tagline": "If at first you don't succeed, try it my way." },
+        { "id": "glitter-diamond-perfume", "seasons": [16], "tagline": "If you'd like to reach my standards, I suggest you get a ladder." },
+        { "id": "plush-peach-brocade", "seasons": [17], "tagline": "I live my life in HD: sharp, bright, and more focused than ever." },
+        { "id": "feathered-photoshoot-ribbon", "seasons": [18], "tagline": "Just because I drink from a flute, doesn't mean you can play me." },
+        { "id": "metallic-premiere-tulle", "seasons": [19], "tagline": "I love life in the hills, so I always take the high road." },
+        { "id": "pleated-finale-peony", "seasons": [20], "tagline": "My motives are like my taste: best left unquestioned." }
+      ]
+    },
+    {
+      "id": "shimmering-launch-candelabra",
+      "slug": "lydia-mclaughlin",
+      "name": "Lydia McLaughlin",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "opal-flashback-magnolia", "seasons": [8], "tagline": "You only live once, but if you work it right, once is enough." },
+        { "id": "glitter-spotlight-tulip", "seasons": [12], "tagline": "If you can't take my sparkle then stay off my rainbow." }
+      ]
+    },
+    {
+      "id": "velvet-marquee-perfume",
+      "slug": "shannon-storms-beador",
+      "name": "Shannon Storms Beador",
+      "franchise": "oc",
+      "credited_as": ["Shannon Beador"],
+      "taglines": [
+        { "id": "sparkly-photoshoot-dahlia", "seasons": [9], "tagline": "The O.C. is full of secrets, but I have nothing to hide." },
+        { "id": "jade-confessional-jukebox", "seasons": [10], "tagline": "When life gives you lemons, put nine in a bowl!" },
+        { "id": "golden-marquee-rhinestone", "seasons": [11], "tagline": "Karma's a bitch, so I don't have to be one." },
+        { "id": "beaded-encore-clutch", "seasons": [12], "tagline": "The truth is organic, but lies are just artificial." },
+        { "id": "quilted-peach-cushion", "seasons": [13], "tagline": "Some people say I'm too much to handle. I say, I'm just getting started." },
+        { "id": "silk-photoshoot-gazebo", "seasons": [14], "tagline": "The tables have turned and this time I'm dancing on them." },
+        { "id": "marble-apple-fascinator", "seasons": [15], "tagline": "I've closed the old Bea-door and opened a new one." },
+        { "id": "pleated-chateau-perfume", "seasons": [16], "tagline": "This Storms has found her sunshine, and the future is looking bright." },
+        { "id": "pleated-diamond-compact", "seasons": [17], "tagline": "In Orange County, I call the shots. And it's always tequila." },
+        { "id": "lacquered-finale-macaron", "seasons": [18], "tagline": "Even in the harshest of times, this Storms will always weather it." },
+        { "id": "ivory-reunion-gown", "seasons": [19], "tagline": "For once, the only dogs in my life are golden retrievers." },
+        { "id": "ruffled-montage-staircase", "seasons": [20], "tagline": "How do I hold it all together? Resilience and shapewear." }
+      ]
+    },
+    {
+      "id": "silver-finale-headband",
+      "slug": "lizzie-rovsek",
+      "name": "Lizzie Rovsek",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "plush-spotlight-cushion", "seasons": [9], "tagline": "Standing out is much more fun than fitting in." }
+      ]
+    },
+    {
+      "id": "gilded-villa-robe",
+      "slug": "meghan-king-edmonds",
+      "name": "Meghan King Edmonds",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "emerald-reunion-sash", "seasons": [10], "tagline": "Now that I'm in the O.C., it's a whole new ball game." },
+        { "id": "glitter-photoshoot-vanity", "seasons": [11], "tagline": "In the game of life, I choose my team wisely." },
+        { "id": "feathered-premiere-mascara", "seasons": [12], "tagline": "I can handle a baby and women who act like one." }
+      ]
+    },
+    {
+      "id": "neon-glam-garland",
+      "slug": "kelly-dodd",
+      "name": "Kelly Dodd",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "ruby-reunion-souffle", "seasons": [11], "tagline": "I don't throw parties, I am the party." },
+        { "id": "ruby-terrace-fan", "seasons": [12], "tagline": "If I want your opinion I'll give it to you." },
+        { "id": "shimmering-peach-cufflink", "seasons": [13], "tagline": "Call animal control because there's a cougar on the loose in the OC." },
+        { "id": "glitter-diamond-anklet", "seasons": [14], "tagline": "If you don't want me to cross the line, don't draw one." },
+        { "id": "pleated-montage-hydrangea", "seasons": [15], "tagline": "Don't judge me for what I do. In fact, just don't judge me at all." }
+      ]
+    },
+    {
+      "id": "cobalt-cameo-ribbon",
+      "slug": "peggy-sulahian",
+      "name": "Peggy Sulahian",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "emerald-premiere-fan", "seasons": [12], "tagline": "I'm living the American dream one sports car at a time." }
+      ]
+    },
+    {
+      "id": "pearly-premiere-boa",
+      "slug": "gina-kirschenheiter",
+      "name": "Gina Kirschenheiter",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "ruffled-launch-fountain", "seasons": [13], "tagline": "I speak the truth... even if it sounds funny when I say it." },
+        { "id": "glitter-montage-clutch", "seasons": [14], "tagline": "I've made mistakes in Orange County but I'll fix them in a New York minute." },
+        { "id": "quilted-photoshoot-settee", "seasons": [15], "tagline": "Those who live in small houses should definitely throw stones." },
+        { "id": "ruby-chateau-confetti", "seasons": [16], "tagline": "I've still got a small house, but I'm living large." },
+        { "id": "gilded-encore-bouquet", "seasons": [17], "tagline": "The difference between my past and present, well that's just apples and oranges." },
+        { "id": "beaded-soiree-candle", "seasons": [18], "tagline": "Like the properties I represent, I know my worth." },
+        { "id": "rose-villa-runway", "seasons": [19], "tagline": "I may work in real estate, but that doesn't mean I'm buying what you're selling." },
+        { "id": "velvet-tagline-vanity", "seasons": [20], "tagline": "Just because I'm spoken for doesn't mean I won't speak up." }
+      ]
+    },
+    {
+      "id": "pleated-chateau-pearl",
+      "slug": "emily-simpson",
+      "name": "Emily Simpson",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "crystal-orange-monogram", "seasons": [13], "tagline": "When you come from humble beginnings, you count your blessings... one diamond at a time." },
+        { "id": "gilded-launch-quill", "seasons": [14], "tagline": "In a town full of blondes, I'm legally brunette." },
+        { "id": "emerald-confessional-compact", "seasons": [15], "tagline": "Life is full of beautiful curves, and so am I." },
+        { "id": "glitter-launch-lily", "seasons": [16], "tagline": "These days, I don't just raise the bar; I close it down, too." },
+        { "id": "metallic-villa-scrunchie", "seasons": [17], "tagline": "If you wanna waste my time, at least hand me a taco." },
+        { "id": "beaded-gala-gazebo", "seasons": [18], "tagline": "I used to question people for a living, now, I just do it for fun." },
+        { "id": "coral-diamond-lantern", "seasons": [19], "tagline": "I may not be your cup of tea, but I'll bring you an espresso martini." },
+        { "id": "coral-reunion-quill", "seasons": [20], "tagline": "My body may be new, but my mouth is the same as always." }
+      ]
+    },
+    {
+      "id": "fringed-chateau-parasol",
+      "slug": "braunwyn-windham-burke",
+      "name": "Braunwyn Windham-Burke",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "crystal-diamond-saucer", "seasons": [14], "tagline": "I manage to wrangle a family of nine and still look like a ten." },
+        { "id": "shimmering-encore-glove", "seasons": [15], "tagline": "Cheers to bad choices, then making better ones." }
+      ]
+    },
+    {
+      "id": "jade-confessional-corsage",
+      "slug": "elizabeth-lyn-vargas",
+      "name": "Elizabeth Lyn Vargas",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "mint-premiere-parasol", "seasons": [15], "tagline": "I earned my money the old-fashioned way: marrying it, then making more." }
+      ]
+    },
+    {
+      "id": "lacquered-spotlight-quill",
+      "slug": "noella-bergener",
+      "name": "Noella Bergener",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "plush-photoshoot-magnolia", "seasons": [16], "tagline": "In the OC, it's easier to fit in but much more fun to stand out." }
+      ]
+    },
+    {
+      "id": "amber-launch-brooch",
+      "slug": "jen-armstrong",
+      "name": "Jen Armstrong",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "quilted-spotlight-organza", "seasons": [16], "tagline": "I'm not afraid of a little jab, and the ones I give are the best." }
+      ]
+    },
+    {
+      "id": "pastel-montage-chaise",
+      "slug": "jennifer-pedranti",
+      "name": "Jennifer Pedranti",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "iridescent-flashback-confetti", "seasons": [17], "tagline": "My core may be strong, but my resilience is stronger." },
+        { "id": "scalloped-soiree-tote", "seasons": [18], "tagline": "People bend over backwards to get me and their form is terrible." },
+        { "id": "peach-encore-chaise", "seasons": [19], "tagline": "Life can be hard, but so are my abs." },
+        { "id": "marble-orange-chiffon", "seasons": [20], "tagline": "The truth speaks volumes, and I'm about to turn it up." }
+      ]
+    },
+    {
+      "id": "mint-cameo-vanity",
+      "slug": "katie-ginella",
+      "name": "Katie Ginella",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "pleated-chateau-fascinator", "seasons": [18], "tagline": "When you live your life on the green, envy is just par for the course." },
+        { "id": "amber-marquee-candelabra", "seasons": [19], "tagline": "I swear to tell the truth, the whole truth, and nothing but my truth." }
+      ]
+    },
+    {
+      "id": "quilted-premiere-saucer",
+      "slug": "carmella-garcia",
+      "name": "Carmella Garcia",
+      "franchise": "oc",
+      "taglines": [
+        { "id": "sparkly-photoshoot-gazebo", "seasons": [20], "tagline": "I'm the center of attention and the centerfold." }
+      ]
+    },
+    {
+      "id": "amber-villa-saucer",
+      "slug": "teresa-giudice",
+      "name": "Teresa Giudice",
+      "franchise": "nj",
+      "taglines": [
+        { "id": "gilded-chateau-rhinestone", "seasons": [1, 2], "tagline": "People make fun of Jersey girls, but I think they're just jealous." },
+        { "id": "neon-glam-cushion", "seasons": [3], "tagline": "I'm a Jersey girl, no one can knock me down." },
+        { "id": "frosted-diamond-teacup", "seasons": [4], "tagline": "When times get tough, you learn who your real friends are." },
+        { "id": "mint-soiree-chaise", "seasons": [5], "tagline": "Haters are gonna hate, but I just love, love, love." },
+        { "id": "beaded-reunion-magnolia", "seasons": [6], "tagline": "You never know how strong you are until it's the only choice you have." },
+        { "id": "cherry-montage-organza", "seasons": [7], "tagline": "I used to flip tables, now I'm turning them." },
+        { "id": "silver-chateau-candle", "seasons": [8], "tagline": "If you're not about the namaste, get the hell out of my way." },
+        { "id": "silk-confessional-teacup", "seasons": [9], "tagline": "These days, I don't throw punches. I roll with them." },
+        { "id": "cobalt-premiere-kimono", "seasons": [10], "tagline": "If you rub me the wrong way, there will be no more namaste." },
+        { "id": "cherry-montage-gown", "seasons": [11], "tagline": "They say it's never too late to start over. I say starting over never tasted so good." },
+        { "id": "ruby-finale-pillow", "seasons": [12], "tagline": "I have a new king, but I'm still the queen of New Jersey." },
+        { "id": "glitter-terrace-mascara", "seasons": [13], "tagline": "Blood may be thicker than water, but it's harder to clean when it spills." },
+        { "id": "peach-apple-ottoman", "seasons": [14], "tagline": "You can try to tear me down, but this Tre keeps on growing." }
+      ]
+    },
+    {
+      "id": "peach-finale-tote",
+      "slug": "jacqueline-laurita",
+      "name": "Jacqueline Laurita",
+      "franchise": "nj",
+      "taglines": [
+        { "id": "beaded-finale-eclair", "seasons": [1, 2], "tagline": "Everyone likes to have nice things, but I'm not one to brag about it." },
+        { "id": "frosted-confessional-cabana", "seasons": [3], "tagline": "I can hold my own. I am my own person." },
+        { "id": "silk-finale-kimono", "seasons": [4], "tagline": "I am a Vegas girl, I will call your bluff." },
+        { "id": "quilted-apple-birdcage", "seasons": [5], "tagline": "I've faced my share of challenges, but I'm tougher than I look." },
+        { "id": "satin-peach-birdcage", "seasons": [7], "tagline": "Fool me once, shame on me. Fool me twice, you better run." }
+      ]
+    },
+    {
+      "id": "pleated-photoshoot-palette",
+      "slug": "caroline-manzo",
+      "name": "Caroline Manzo",
+      "franchise": "nj",
+      "taglines": [
+        { "id": "sparkly-diamond-birdcage", "seasons": [1, 2], "tagline": "If you're gonna mess with my family, you're messing with me." },
+        { "id": "sapphire-photoshoot-lipstick", "seasons": [3], "tagline": "Life is about change, sometimes you just have to roll with the punches." },
+        { "id": "neon-diamond-tulip", "seasons": [4], "tagline": "Life is short, I have no time for drama." },
+        { "id": "velvet-confessional-pillow", "seasons": [5], "tagline": "Love me or hate me, I always speak the truth." }
+      ]
+    },
+    {
+      "id": "silver-montage-parasol",
+      "slug": "dina-cantin",
+      "name": "Dina Cantin",
+      "franchise": "nj",
+      "credited_as": ["Dina Manzo"],
+      "taglines": [
+        { "id": "iridescent-cameo-saucer", "seasons": [1, 2], "tagline": "If you think I'm a bitch, then bring it on." },
+        { "id": "marble-marquee-cushion", "seasons": [6], "tagline": "I'm back to bring the zen. Namaste, bitches!" }
+      ]
+    },
+    {
+      "id": "neon-apple-staircase",
+      "slug": "danielle-staub",
+      "name": "Danielle Staub",
+      "franchise": "nj",
+      "taglines": [
+        { "id": "satin-terrace-runway", "seasons": [1, 2], "tagline": "You're either gonna love me or hate me. There is no in between with me." }
+      ]
+    },
+    {
+      "id": "tufted-encore-lipstick",
+      "slug": "melissa-gorga",
+      "name": "Melissa Gorga",
+      "franchise": "nj",
+      "taglines": [
+        { "id": "neon-gala-quill", "seasons": [3], "tagline": "I live a life that most girls only dream of." },
+        { "id": "amber-glam-teacup", "seasons": [4], "tagline": "I never throw the first punch, but I'm always a knockout." },
+        { "id": "sequin-diamond-candelabra", "seasons": [5], "tagline": "Sexy life, loyal wife, take a page from my book." },
+        { "id": "peach-confessional-kimono", "seasons": [6], "tagline": "I've learned to forgive and never regret." },
+        { "id": "lacquered-tagline-settee", "seasons": [7], "tagline": "I always act like a lady, but now I think like a boss." },
+        { "id": "neon-terrace-kimono", "seasons": [8], "tagline": "The only life I envy is my own." },
+        { "id": "glitter-cameo-robe", "seasons": [9], "tagline": "Don't try to bully me, because I'm a boss." },
+        { "id": "opal-premiere-magnolia", "seasons": [10], "tagline": "Mirror, mirror on the wall, I don't think I look 40 at all." },
+        { "id": "silk-glam-headband", "seasons": [11], "tagline": "I can tell you're green with envy, and honey, green is not your color." },
+        { "id": "mirrored-launch-orchid", "seasons": [12], "tagline": "Some people are born great, and some are born Jersey." },
+        { "id": "jade-luncheon-eclair", "seasons": [13], "tagline": "You'll never see how toxic someone is until you breathe fresher air." },
+        { "id": "emerald-peach-satchel", "seasons": [14], "tagline": "It's hard not to burn bridges, when you're on fire." }
+      ]
+    },
+    {
+      "id": "beaded-soiree-organza",
+      "slug": "kathy-wakile",
+      "name": "Kathy Wakile",
+      "franchise": "nj",
+      "taglines": [
+        { "id": "tufted-launch-tulip", "seasons": [3], "tagline": "People say that I'm sweet, but I'm tough, so don't cross me." },
+        { "id": "pleated-glam-corsage", "seasons": [4], "tagline": "We're old school, we believe in respect." },
+        { "id": "satin-luncheon-magnolia", "seasons": [5], "tagline": "If you can't take the heat, get out of my kitchen." }
+      ]
+    },
+    {
+      "id": "pleated-encore-tiara",
+      "slug": "amber-marchese",
+      "name": "Amber Marchese",
+      "franchise": "nj",
+      "taglines": [
+        { "id": "cobalt-chateau-sconce", "seasons": [6], "tagline": "I'm a survivor, no one is bringing me down." }
+      ]
+    },
+    {
+      "id": "neon-premiere-satchel",
+      "slug": "teresa-aprea",
+      "name": "Teresa Aprea",
+      "franchise": "nj",
+      "taglines": [
+        { "id": "pleated-diamond-locket", "seasons": [6], "tagline": "You're not seeing double, you're seeing trouble!" }
+      ]
+    },
+    {
+      "id": "sequin-reunion-tulip",
+      "slug": "nicole-napolitano",
+      "name": "Nicole Napolitano",
+      "franchise": "nj",
+      "taglines": [
+        { "id": "tufted-confessional-jukebox", "seasons": [6], "tagline": "You're not seeing double, you're seeing trouble!" }
+      ]
+    },
+    {
+      "id": "scalloped-orange-garland",
+      "slug": "dolores-catania",
+      "name": "Dolores Catania",
+      "franchise": "nj",
+      "taglines": [
+        { "id": "pastel-luncheon-organza", "seasons": [7], "tagline": "I was raised Jersey strong. Nothing in this life can shake me." },
+        { "id": "scalloped-spotlight-cabana", "seasons": [8], "tagline": "Look loyalty up in the dictionary, and you'll find my face." },
+        { "id": "glossy-villa-kimono", "seasons": [9], "tagline": "I may put up a tough front, but I'll never leave you behind." },
+        { "id": "silk-finale-slipper", "seasons": [10], "tagline": "Behind every strong man is a stronger Jersey girl." },
+        { "id": "satin-reunion-brocade", "seasons": [11], "tagline": "I'm loyal and I'm lovable, but don't you dare call me gullible." },
+        { "id": "amber-cameo-chiffon", "seasons": [12], "tagline": "I don't start the drama, but I will stop the show." },
+        { "id": "satin-reunion-jukebox", "seasons": [13], "tagline": "This Jersey girl has the luck of the Irish and nobody's screwing with my pot of gold." },
+        { "id": "rose-spotlight-gazebo", "seasons": [14], "tagline": "I'm a girl from Paterson, playing Switzerland, and dating an Irish man." }
+      ]
+    },
+    {
+      "id": "opal-flashback-locket",
+      "slug": "siggy-flicker",
+      "name": "Siggy Flicker",
+      "franchise": "nj",
+      "taglines": [
+        { "id": "sparkly-launch-quill", "seasons": [7], "tagline": "Some people think I'm too much. They're absolutely right." },
+        { "id": "golden-montage-hatbox", "seasons": [8], "tagline": "My motto is know your worth, leave the rest to your plastic surgeon." }
+      ]
+    },
+    {
+      "id": "sapphire-gala-candelabra",
+      "slug": "margaret-josephs",
+      "name": "Margaret Josephs",
+      "franchise": "nj",
+      "taglines": [
+        { "id": "ruby-cameo-robe", "seasons": [8], "tagline": "I bring the power, the pigtails, and the party." },
+        { "id": "gilded-premiere-hatbox", "seasons": [9], "tagline": "I can make you laugh or make you cry. Your choice!" },
+        { "id": "golden-diamond-candelabra", "seasons": [10], "tagline": "If you can't take the truth, sue me." },
+        { "id": "emerald-reunion-hydrangea", "seasons": [11], "tagline": "I renovate, elevate, and sometimes, I instigate." },
+        { "id": "metallic-orange-doily", "seasons": [12], "tagline": "I say, 'When you have nothing to hide, there's nothing to lose.'" },
+        { "id": "beaded-flashback-sash", "seasons": [13], "tagline": "I'm a loyal friend and a lethal enemy." },
+        { "id": "plush-peach-tulip", "seasons": [14], "tagline": "While you're taking cheap shots, I'm taking screenshots." }
+      ]
+    },
+    {
+      "id": "mirrored-photoshoot-gardenia",
+      "slug": "jackie-goldschneider",
+      "name": "Jackie Goldschneider",
+      "franchise": "nj",
+      "taglines": [
+        { "id": "sapphire-finale-cufflink", "seasons": [9], "tagline": "I have four kids, two degrees, and one kickass life." },
+        { "id": "blush-montage-cabana", "seasons": [10], "tagline": "Don't let the minivan fool you. This mom won't roll over for anyone." },
+        { "id": "amber-gala-lantern", "seasons": [11], "tagline": "I may be cut from a different cloth, but it's top quality fabric." },
+        { "id": "quilted-glam-teacup", "seasons": [12], "tagline": "You don't have to pay me a compliment, but you do have to pay me respect." }
+      ]
+    },
+    {
+      "id": "peach-tagline-rhinestone",
+      "slug": "jennifer-aydin",
+      "name": "Jennifer Aydin",
+      "franchise": "nj",
+      "taglines": [
+        { "id": "ivory-glam-glove", "seasons": [9], "tagline": "I'm obsessed with family, traditions, and Chanel." },
+        { "id": "scalloped-terrace-macaron", "seasons": [10], "tagline": "As I always say, plastic makes perfect." },
+        { "id": "ruffled-launch-hatbox", "seasons": [11], "tagline": "Whoever says money can't buy happiness clearly doesn't have my credit limit." },
+        { "id": "sparkly-tagline-garland", "seasons": [12], "tagline": "My nose may be new, but I can still smell a rat." },
+        { "id": "beaded-spotlight-camellia", "seasons": [13], "tagline": "Payback's a bitch, so start barking." },
+        { "id": "feathered-encore-candelabra", "seasons": [14], "tagline": "Friends are like handbags; the fake ones are all too easy to spot." }
+      ]
+    },
+    {
+      "id": "cobalt-encore-garland",
+      "slug": "danielle-cabral",
+      "name": "Danielle Cabral",
+      "franchise": "nj",
+      "taglines": [
+        { "id": "crystal-encore-candle", "seasons": [13], "tagline": "I may be over-the-top, but I'd rather be bougie than basic." },
+        { "id": "fringed-marquee-headband", "seasons": [14], "tagline": "I'm bougie, unbothered, and above your drama." }
+      ]
+    },
+    {
+      "id": "ruby-terrace-chaise",
+      "slug": "rachel-fuda",
+      "name": "Rachel Fuda",
+      "franchise": "nj",
+      "taglines": [
+        { "id": "sparkly-chateau-atomizer", "seasons": [13], "tagline": "I'm too busy running a business to care about yours." },
+        { "id": "frosted-encore-tulle", "seasons": [14], "tagline": "If you don't have my back, at least have a backbone." }
+      ]
+    },
+    {
+      "id": "pearly-tagline-cabana",
+      "slug": "nene-leakes",
+      "name": "NeNe Leakes",
+      "franchise": "atl",
+      "eye_color": {
+        "color": "black-brown",
+        "basis": "photo_sampled",
+        "sources": [
+          { "source_url": "https://www.bravotv.com/the-real-housewives-of-atlanta/style-living/season-12-exclusive-interview-fashion-photos", "note": "S12 interview look, 2020. A lit studio portrait. The iris samples near-black brown, about 2D1616 to 391A23." },
+          { "source_url": "https://www.bravotv.com/the-real-housewives-of-atlanta/style-living/rhoa-season-12-reunion-outfits-nene-leakes", "note": "S12 virtual reunion close-up, 2020. A separate shoot. The iris samples about 231610 to 29231B." }
+        ]
+      },
+      "taglines": [
+        { "id": "jade-apple-staircase", "seasons": [1, 2], "tagline": "I don't keep up with the Jones', I am the Jones'." },
+        { "id": "coral-glam-chiffon", "seasons": [3, 4], "tagline": "When I walk into the room, I own it." },
+        { "id": "quilted-launch-brocade", "seasons": [5], "tagline": "I have arrived, and the spotlight is on me, honey." },
+        { "id": "neon-finale-bouquet", "seasons": [6], "tagline": "Success is in my DNA. When one door closes, another one opens." },
+        { "id": "mirrored-photoshoot-staircase", "seasons": [7], "tagline": "Why be so nasty and so rude, when I can be so fierce and so successful?" },
+        { "id": "glossy-confessional-slipper", "seasons": [10], "tagline": "10 years in the game, and I'm still the tastiest peach in Atlanta!" },
+        { "id": "iridescent-marquee-staircase", "seasons": [11], "tagline": "I am the glue for my wig and my family." },
+        { "id": "lacquered-montage-magnolia", "seasons": [12], "tagline": "I'm on a spiritual journey and still traveling first class." }
+      ]
+    },
+    {
+      "id": "silver-launch-quill",
+      "slug": "kim-zolciak-biermann",
+      "name": "Kim Zolciak-Biermann",
+      "franchise": "atl",
+      "credited_as": ["Kim Zolciak"],
+      "taglines": [
+        { "id": "marble-reunion-saucer", "seasons": [1, 2], "tagline": "In Atlanta, money and class do give you power." },
+        { "id": "emerald-reunion-pearl", "seasons": [3, 4], "tagline": "People call me a gold digger, but they just want what I have." },
+        { "id": "silver-diamond-staircase", "seasons": [5], "tagline": "I asked, believed, and I received." }
+      ]
+    },
+    {
+      "id": "glossy-soiree-candelabra",
+      "slug": "sheree-whitfield",
+      "name": "Shereé Whitfield",
+      "franchise": "atl",
+      "credited_as": ["Sheree Whitfield"],
+      "taglines": [
+        { "id": "tufted-launch-satchel", "seasons": [1, 2], "tagline": "People are intimidated by my success." },
+        { "id": "mirrored-soiree-settee", "seasons": [3, 4], "tagline": "I like things that are elegant and sophisticated, just like me." },
+        { "id": "iridescent-launch-cape", "seasons": [9], "tagline": "Don't call it a comeback... call it a takeover." },
+        { "id": "opal-encore-ribbon", "seasons": [10], "tagline": "Call me a bad server, because I always spill the tea!" },
+        { "id": "glossy-reunion-sconce", "seasons": [14], "tagline": "Spring, summer, or September, I'm the one you always remember." },
+        { "id": "quilted-reunion-pillow", "seasons": [15], "tagline": "She By Shereé? More like SHE broke the internet." }
+      ]
+    },
+    {
+      "id": "blush-villa-lily",
+      "slug": "lisa-wu",
+      "name": "Lisa Wu",
+      "franchise": "atl",
+      "credited_as": ["Lisa Wu Hartwell"],
+      "taglines": [
+        { "id": "iridescent-luncheon-limousine", "seasons": [1, 2], "tagline": "If it doesn't make me money, I don't do it." }
+      ]
+    },
+    {
+      "id": "mint-premiere-perfume",
+      "slug": "deshawn-snow",
+      "name": "DeShawn Snow",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "emerald-peach-corsage", "seasons": [1], "tagline": "I always knew I was destined for greatness." }
+      ]
+    },
+    {
+      "id": "peach-flashback-souffle",
+      "slug": "kandi-burruss",
+      "name": "Kandi Burruss",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "velvet-terrace-hatbox", "seasons": [2], "tagline": "I'm an independent woman, doing it for myself." },
+        { "id": "silk-chateau-quill", "seasons": [3, 4], "tagline": "I have fame and fortune, and I've earned it." },
+        { "id": "peach-villa-sunhat", "seasons": [5], "tagline": "I may be small, but my empire keeps on growing." },
+        { "id": "iridescent-confessional-staircase", "seasons": [6], "tagline": "Music may be my passion, but family is forever." },
+        { "id": "fringed-spotlight-candle", "seasons": [7], "tagline": "I'm not about the drama. Don't start none, won't be none." },
+        { "id": "neon-chateau-dahlia", "seasons": [8], "tagline": "I'm a hitmaker, and this year I will reveal the best one." },
+        { "id": "velvet-luncheon-tulle", "seasons": [9], "tagline": "Now that I've got my ace, I have a full house." },
+        { "id": "jade-launch-curler", "seasons": [10], "tagline": "Don't mess with the boss, because you might get fired." },
+        { "id": "velvet-peach-magnolia", "seasons": [11], "tagline": "I count my blessings, and my checks!" },
+        { "id": "sequin-terrace-kaftan", "seasons": [12], "tagline": "Don't check for me unless you got a check for me." },
+        { "id": "tufted-photoshoot-cushion", "seasons": [13], "tagline": "A little Kandi always helps sweeten the tea." },
+        { "id": "gilded-photoshoot-gazebo", "seasons": [14], "tagline": "I ain't never skipped a beat or a bag." },
+        { "id": "cobalt-encore-brocade", "seasons": [15], "tagline": "My roots are in Atlanta, but my branches are worldwide." }
+      ]
+    },
+    {
+      "id": "plush-marquee-gazebo",
+      "slug": "cynthia-bailey",
+      "name": "Cynthia Bailey",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "ruffled-confessional-magnolia", "seasons": [3, 4], "tagline": "I know how to work it, and be seen." },
+        { "id": "golden-flashback-magnolia", "seasons": [5], "tagline": "Beauty fades, class is forever." },
+        { "id": "satin-diamond-parasol", "seasons": [6], "tagline": "My business is beauty, and I'm the boss." },
+        { "id": "silver-glam-kimono", "seasons": [7], "tagline": "Life is about choices, and I choose Cynthia." },
+        { "id": "marble-marquee-jukebox", "seasons": [8], "tagline": "Seasons may change, but Cynthia Bailey never goes out of style." },
+        { "id": "amber-reunion-corsage", "seasons": [9], "tagline": "Life is a runway, and Cynthia Bailey is ready to walk it alone." },
+        { "id": "silk-confessional-sash", "seasons": [10], "tagline": "Age is just a number, but these cheekbones are timeless!" },
+        { "id": "metallic-glam-dahlia", "seasons": [11], "tagline": "I age like fine wine, and now, I am ready to chill." },
+        { "id": "peach-terrace-balloon", "seasons": [12], "tagline": "The only time that I look back is to see how far I've come." },
+        { "id": "glossy-luncheon-chaise", "seasons": [13], "tagline": "I've been through the peaks and the valleys, and now I'm head over Hills." }
+      ]
+    },
+    {
+      "id": "scalloped-photoshoot-hatbox",
+      "slug": "phaedra-parks",
+      "name": "Phaedra Parks",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "silver-orange-candelabra", "seasons": [3, 4], "tagline": "I'm the ultimate Southern belle, I get what I want." },
+        { "id": "amber-confessional-dahlia", "seasons": [5], "tagline": "I'm a Southern belle. Brains, booty, and all business." },
+        { "id": "plush-gala-orchid", "seasons": [6], "tagline": "A true southern belle knows her worth, and I am priceless." },
+        { "id": "neon-confessional-ribbon", "seasons": [7], "tagline": "When it comes to my family, I'm the judge and the jury." },
+        { "id": "pastel-finale-camellia", "seasons": [8], "tagline": "Only God can judge me, and he seems quite impressed." },
+        { "id": "silver-encore-scrunchie", "seasons": [9], "tagline": "You can't always get what you want, but I can." },
+        { "id": "iridescent-spotlight-dahlia", "seasons": [16], "tagline": "I returned from the dead. Now, let's bury the past for good." },
+        { "id": "crystal-tagline-settee", "seasons": [17], "tagline": "In a world of legends, they call me 'The Godfather.'" }
+      ]
+    },
+    {
+      "id": "gilded-glam-hydrangea",
+      "slug": "kenya-moore",
+      "name": "Kenya Moore",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "pearly-gala-organza", "seasons": [5], "tagline": "I won Miss USA, not Miss Congeniality." },
+        { "id": "cobalt-flashback-gazebo", "seasons": [6], "tagline": "People may think they have me figured out, but I am always the wild card." },
+        { "id": "golden-luncheon-eclair", "seasons": [7], "tagline": "People get exhausted trying to figure me out. And I just let them." },
+        { "id": "mint-diamond-gown", "seasons": [8], "tagline": "Don't come for me, unless I twirl for you." },
+        { "id": "neon-launch-atomizer", "seasons": [9], "tagline": "I give the people what they want, and they always want more." },
+        { "id": "emerald-tagline-bangle", "seasons": [10], "tagline": "While some were saying 'I can't,' I was saying 'I do!'" },
+        { "id": "emerald-soiree-organza", "seasons": [12], "tagline": "I was gone with the wind, but now I'm back and twice as fabulous." },
+        { "id": "coral-orange-doily", "seasons": [13], "tagline": "If you don't like my shade, then step out of my shadow!" },
+        { "id": "crystal-flashback-locket", "seasons": [14], "tagline": "You're always living in the moment when you are the moment." },
+        { "id": "scalloped-peach-cushion", "seasons": [15], "tagline": "I just don't do it for the culture, honey, I am the culture." }
+      ]
+    },
+    {
+      "id": "silk-chateau-mascara",
+      "slug": "porsha-williams",
+      "name": "Porsha Williams",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "opal-peach-bouquet", "seasons": [5], "tagline": "People say I have a picture perfect life, and I do." },
+        { "id": "plush-tagline-fan", "seasons": [6], "tagline": "I am still standing, and I am making my own rules." },
+        { "id": "quilted-gala-gardenia", "seasons": [8], "tagline": "I'm about to give you life, so stay out of my way!" },
+        { "id": "cherry-apple-orchid", "seasons": [9], "tagline": "I'm too blessed to be stressed and too sexy to be thirsty." },
+        { "id": "peach-soiree-staircase", "seasons": [10], "tagline": "Friends come and go, but family is forever." },
+        { "id": "peach-montage-tote", "seasons": [11], "tagline": "I took a left turn but now, things are just right." },
+        { "id": "frosted-chateau-balloon", "seasons": [12], "tagline": "This phoenix has risen. And I'm saying: Bye, ashes!" },
+        { "id": "sapphire-reunion-candelabra", "seasons": [13], "tagline": "I may be social distancing, but I'm here for social justice." },
+        { "id": "amber-apple-cufflink", "seasons": [16], "tagline": "I snatched my peach back. Now, I'm bringing the juice." },
+        { "id": "golden-reunion-chaise", "seasons": [17], "tagline": "I've lived many lives, and all of them have been fabulous." }
+      ]
+    },
+    {
+      "id": "beaded-glam-brocade",
+      "slug": "claudia-jordan",
+      "name": "Claudia Jordan",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "crystal-chateau-fountain", "seasons": [7], "tagline": "Don't hate me because I'm beautiful. Hate me because I'm here to stay." }
+      ]
+    },
+    {
+      "id": "amber-luncheon-quill",
+      "slug": "kim-fields",
+      "name": "Kim Fields",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "silk-launch-jukebox", "seasons": [8], "tagline": "Faith, family and career, those are the facts of my life." }
+      ]
+    },
+    {
+      "id": "sapphire-flashback-sunhat",
+      "slug": "eva-marcille",
+      "name": "Eva Marcille",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "neon-terrace-sconce", "seasons": [11], "tagline": "I live a model life, now I'm ready to be a top wife." },
+        { "id": "amber-confessional-sash", "seasons": [12], "tagline": "I'm living my dreams, not above my means." }
+      ]
+    },
+    {
+      "id": "opal-glam-saucer",
+      "slug": "shamari-devoe",
+      "name": "Shamari DeVoe",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "mirrored-diamond-doily", "seasons": [11], "tagline": "I may be an open book, but that does not mean I am easily read." }
+      ]
+    },
+    {
+      "id": "glitter-orange-vanity",
+      "slug": "drew-sidora",
+      "name": "Drew Sidora",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "sparkly-orange-birdcage", "seasons": [13], "tagline": "I was in The Game, but now? I'm calling all the plays." },
+        { "id": "emerald-gala-ottoman", "seasons": [14], "tagline": "I keep you on the edges of your seat." },
+        { "id": "marble-orange-macaron", "seasons": [15], "tagline": "Forget the gaslight, I'm taking the spotlight." },
+        { "id": "iridescent-diamond-curler", "seasons": [16], "tagline": "I'll always be upper level. Everyone else is in the basement." },
+        { "id": "beaded-finale-teacup", "seasons": [17], "tagline": "If you cast me in your drama, I'll only accept leading roles." }
+      ]
+    },
+    {
+      "id": "emerald-marquee-headband",
+      "slug": "marlo-hampton",
+      "name": "Marlo Hampton",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "scalloped-spotlight-staircase", "seasons": [14], "tagline": "I always had the juice, but now I got the peach!" },
+        { "id": "neon-chateau-tote", "seasons": [15], "tagline": "My past may be checkered, but my future is solid gold." }
+      ]
+    },
+    {
+      "id": "ivory-soiree-cape",
+      "slug": "sanya-richards-ross",
+      "name": "Sanya Richards-Ross",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "lacquered-montage-lantern", "seasons": [14], "tagline": "I may be a rookie, but this isn't my first race." },
+        { "id": "ruffled-spotlight-teacup", "seasons": [15], "tagline": "If you can't keep the pace, stay out of my race." }
+      ]
+    },
+    {
+      "id": "neon-cameo-garland",
+      "slug": "shamea-morton-mwangi",
+      "name": "Shamea Morton Mwangi",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "cherry-diamond-birdcage", "seasons": [16], "tagline": "Plus one? Honey, I've always been that one." },
+        { "id": "metallic-luncheon-doily", "seasons": [17], "tagline": "I've been loyal to a fault, and now I'm ready to have my own back." }
+      ]
+    },
+    {
+      "id": "glossy-spotlight-tiara",
+      "slug": "kelli-ferrell",
+      "name": "Kelli Ferrell",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "iridescent-glam-mascara", "seasons": [16], "tagline": "I'm a mom of four girls. Give me attitude and I'll ground you too." },
+        { "id": "marble-peach-pearl", "seasons": [17], "tagline": "I'm short, seasoned, and always a full-course meal." }
+      ]
+    },
+    {
+      "id": "mint-tagline-bouquet",
+      "slug": "angela-oakley",
+      "name": "Angela Oakley",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "lilac-premiere-bangle", "seasons": [16], "tagline": "If you want to find the shade, just look for the oak." },
+        { "id": "marble-montage-lantern", "seasons": [17], "tagline": "In a field of players, I always run it back." }
+      ]
+    },
+    {
+      "id": "cobalt-encore-settee",
+      "slug": "brit-eady",
+      "name": "Brit Eady",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "mirrored-photoshoot-doily", "seasons": [16], "tagline": "I'm pretty and paid, of course there's haters trying to shade." }
+      ]
+    },
+    {
+      "id": "cobalt-villa-eclair",
+      "slug": "pinky-cole",
+      "name": "Pinky Cole",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "opal-chateau-sconce", "seasons": [17], "tagline": "While they're busy beefing, I stay vegan." }
+      ]
+    },
+    {
+      "id": "plush-spotlight-doily",
+      "slug": "k-michelle",
+      "name": "K. Michelle",
+      "franchise": "atl",
+      "taglines": [
+        { "id": "tufted-soiree-cabana", "seasons": [17], "tagline": "I don't need any background singers, it's always my show." }
+      ]
+    },
+    {
+      "id": "frosted-encore-anklet",
+      "slug": "cristy-rice",
+      "name": "Cristy Rice",
+      "franchise": "miami",
+      "taglines": [
+        { "id": "frosted-reunion-cufflink", "seasons": [1], "tagline": "In my world, attitude is everything, I'm keeping it real." }
+      ]
+    },
+    {
+      "id": "pastel-diamond-ribbon",
+      "slug": "marysol-patton",
+      "name": "Marysol Patton",
+      "franchise": "miami",
+      "taglines": [
+        { "id": "shimmering-tagline-taffeta", "seasons": [1], "tagline": "I put others in the spotlight, but somehow it keeps finding me." },
+        { "id": "pastel-premiere-dahlia", "seasons": [2], "tagline": "My job is about making fast decisions, but my personal life I leave up to destiny." }
+      ]
+    },
+    {
+      "id": "neon-finale-palette",
+      "slug": "lea-black",
+      "name": "Lea Black",
+      "franchise": "miami",
+      "taglines": [
+        { "id": "ivory-tagline-candelabra", "seasons": [1], "tagline": "I care about a lot of things, what others think of me isn't one of them." },
+        { "id": "pearly-encore-sconce", "seasons": [2], "tagline": "I can deal with a lot, but I can't deal with stupid." },
+        { "id": "quilted-gala-candelabra", "seasons": [3], "tagline": "I live my life like everything matters because I think it does." }
+      ]
+    },
+    {
+      "id": "iridescent-premiere-corsage",
+      "slug": "alexia-nepola",
+      "name": "Alexia Nepola",
+      "credited_as": ["Alexia Echevarria"],
+      "franchise": "miami",
+      "taglines": [
+        { "id": "glossy-launch-compact", "seasons": [1], "tagline": "Beauty is power, if you know how to use it." },
+        { "id": "crystal-encore-chaise", "seasons": [3], "tagline": "This Cuban doll is back on the scene, and living the dream." },
+        { "id": "beaded-glam-lily", "seasons": [4], "tagline": "My life is like a movie, and the award for best drama goes to me." },
+        { "id": "silver-glam-tulle", "seasons": [5], "tagline": "In Miami, the sun brings the heat but I bring the fire." },
+        { "id": "glossy-reunion-palette", "seasons": [6], "tagline": "I'm the Cuban doll, and Miami is my dream house." },
+        { "id": "satin-orange-kimono", "seasons": [7], "tagline": "I may be a Cuban doll, but I'm no one's toy." }
+      ]
+    },
+    {
+      "id": "pastel-cameo-postcard",
+      "slug": "larsa-pippen",
+      "name": "Larsa Pippen",
+      "franchise": "miami",
+      "taglines": [
+        { "id": "crystal-cameo-ribbon", "seasons": [1], "tagline": "My husband's got moves, but I run the game." },
+        { "id": "pleated-flashback-runway", "seasons": [4], "tagline": "It's my game now, and the fans are going wild." },
+        { "id": "blush-luncheon-cufflink", "seasons": [5], "tagline": "Hate all you want 'cause if I were you, I'd hate me too." },
+        { "id": "golden-gala-cushion", "seasons": [6], "tagline": "I don't need to keep score because I'm always winning." },
+        { "id": "mirrored-launch-fan", "seasons": [7], "tagline": "It's hard to get on my bad side... because I don't have one!" }
+      ]
+    },
+    {
+      "id": "lilac-glam-macaron",
+      "slug": "adriana-de-moura",
+      "name": "Adriana de Moura",
+      "franchise": "miami",
+      "taglines": [
+        { "id": "rose-encore-robe", "seasons": [1], "tagline": "I speak five languages, but I can get a man with no words." },
+        { "id": "iridescent-spotlight-candelabra", "seasons": [2], "tagline": "I may speak five languages, but my true language is independence." },
+        { "id": "ivory-soiree-teacup", "seasons": [3], "tagline": "Some people say I have secrets, but I say I am full of surprises." }
+      ]
+    },
+    {
+      "id": "cobalt-peach-settee",
+      "slug": "karent-sierra",
+      "name": "Karent Sierra",
+      "franchise": "miami",
+      "taglines": [
+        { "id": "pearly-reunion-limousine", "seasons": [2], "tagline": "If you don't like my smile, then don't look my way." }
+      ]
+    },
+    {
+      "id": "gilded-reunion-saucer",
+      "slug": "lisa-hochstein",
+      "name": "Lisa Hochstein",
+      "franchise": "miami",
+      "taglines": [
+        { "id": "golden-photoshoot-tote", "seasons": [2], "tagline": "My husband's a top plastic surgeon in this town, and I am his best creation." },
+        { "id": "cobalt-montage-postcard", "seasons": [3], "tagline": "Everyone loves to underestimate me, and I love to prove everyone wrong." },
+        { "id": "pleated-terrace-organza", "seasons": [4], "tagline": "My husband built the perfect wife, and I built the perfect life." },
+        { "id": "plush-terrace-runway", "seasons": [5], "tagline": "You can try to take my castle but you will never steal my crown." },
+        { "id": "opal-orange-candelabra", "seasons": [6], "tagline": "Take me off my throne and I'll bring down the kingdom." },
+        { "id": "coral-marquee-tulle", "seasons": [7], "tagline": "I may not be prompt, but I'm worth the wait." }
+      ]
+    },
+    {
+      "id": "blush-diamond-chaise",
+      "slug": "ana-quincoces",
+      "name": "Ana Quincoces",
+      "franchise": "miami",
+      "taglines": [
+        { "id": "pearly-encore-pillow", "seasons": [2], "tagline": "Whether in the court room or the kitchen, I bring the heat." }
+      ]
+    },
+    {
+      "id": "sapphire-orange-candle",
+      "slug": "joanna-krupa",
+      "name": "Joanna Krupa",
+      "franchise": "miami",
+      "taglines": [
+        { "id": "silk-peach-satchel", "seasons": [2], "tagline": "I'm a model, but not always a model citizen." },
+        { "id": "mint-diamond-palette", "seasons": [3], "tagline": "Don't hate me because I have it all, hate me because I'm beautiful." }
+      ]
+    },
+    {
+      "id": "lacquered-launch-dahlia",
+      "slug": "guerdy-abraira",
+      "name": "Guerdy Abraira",
+      "franchise": "miami",
+      "taglines": [
+        { "id": "velvet-marquee-veil", "seasons": [4], "tagline": "Darling, I don't just plan the party; I am the party." },
+        { "id": "ivory-launch-peony", "seasons": [5], "tagline": "The only thing that moves faster than my mouth is my ambition." },
+        { "id": "lilac-montage-dahlia", "seasons": [6], "tagline": "Hard times are temporary, but I'll be fabulous forever." },
+        { "id": "plush-cameo-eclair", "seasons": [7], "tagline": "I'm a fierce fighter, and an even stronger survivor." }
+      ]
+    },
+    {
+      "id": "emerald-reunion-saucer",
+      "slug": "julia-lemigova",
+      "name": "Julia Lemigova",
+      "franchise": "miami",
+      "taglines": [
+        { "id": "plush-photoshoot-pillow", "seasons": [4], "tagline": "Life is like tennis: You can win at singles, but doubles is always more fun." },
+        { "id": "sequin-launch-bangle", "seasons": [5], "tagline": "When the chicks fly the coop, it's time for this mama bird to spread her wings." },
+        { "id": "golden-spotlight-candelabra", "seasons": [6], "tagline": "My life is like a song and I always sing with pride." },
+        { "id": "golden-cameo-souffle", "seasons": [7], "tagline": "My chicken coop is full and now so is my house." }
+      ]
+    },
+    {
+      "id": "lilac-cameo-cape",
+      "slug": "nicole-martin",
+      "name": "Nicole Martin",
+      "franchise": "miami",
+      "taglines": [
+        { "id": "opal-villa-corsage", "seasons": [4], "tagline": "I might be a doctor, but don't test my patience." },
+        { "id": "pearly-peach-mascara", "seasons": [5], "tagline": "I'm a pro at the rules of engagement and I have the ring to prove it." },
+        { "id": "rose-premiere-cabana", "seasons": [6], "tagline": "Don't let the private plane fool you... this girl always stays grounded." }
+      ]
+    },
+    {
+      "id": "opal-confessional-kimono",
+      "slug": "stephanie-shojaee",
+      "name": "Stephanie Shojaee",
+      "franchise": "miami",
+      "taglines": [
+        { "id": "sapphire-spotlight-candelabra", "seasons": [7], "tagline": "I don't just sell luxury, I live it." }
+      ]
+    },
+    {
+      "id": "lilac-cameo-taffeta",
+      "slug": "caroline-stanbury",
+      "name": "Caroline Stanbury",
+      "franchise": "dubai",
+      "taglines": [
+        { "id": "blush-villa-pearl", "seasons": [1], "tagline": "In the city of gold, nothing shines brighter than me." },
+        { "id": "neon-cameo-lantern", "seasons": [2], "tagline": "The only thing old about me darling is my money." }
+      ]
+    },
+    {
+      "id": "pastel-gala-parasol",
+      "slug": "chanel-ayan",
+      "name": "Chanel Ayan",
+      "franchise": "dubai",
+      "taglines": [
+        { "id": "coral-apple-lily", "seasons": [1], "tagline": "They don't hate me because I'm beautiful, they hate me because they are basic." },
+        { "id": "pastel-terrace-chandelier", "seasons": [2], "tagline": "If you're jealous of me that's okay honey, I would be too." }
+      ]
+    },
+    {
+      "id": "emerald-tagline-tiara",
+      "slug": "caroline-brooks",
+      "name": "Caroline Brooks",
+      "franchise": "dubai",
+      "taglines": [
+        { "id": "shimmering-marquee-parasol", "seasons": [1], "tagline": "The desert is ruthless, but nothing is more savage than me." },
+        { "id": "pleated-launch-cufflink", "seasons": [2], "tagline": "I may be building glass houses, but you'll never see me crack." }
+      ]
+    },
+    {
+      "id": "satin-tagline-pearl",
+      "slug": "sara-al-madani",
+      "name": "Sara Al Madani",
+      "franchise": "dubai",
+      "taglines": [
+        { "id": "velvet-cameo-cape", "seasons": [1], "tagline": "A woman should be two things, who and what she wants." },
+        { "id": "ruby-launch-bouquet", "seasons": [2], "tagline": "In the land of excess, I find my riches within." }
+      ]
+    },
+    {
+      "id": "ivory-luncheon-macaron",
+      "slug": "lesa-milan",
+      "name": "Lesa Milan",
+      "franchise": "dubai",
+      "taglines": [
+        { "id": "glossy-villa-glove", "seasons": [1], "tagline": "The only thing you can take from me are notes." },
+        { "id": "lilac-spotlight-magnolia", "seasons": [2], "tagline": "The desert might be hot, but I always find the shade." }
+      ]
+    },
+    {
+      "id": "coral-marquee-atomizer",
+      "slug": "nina-ali",
+      "name": "Nina Ali",
+      "franchise": "dubai",
+      "taglines": [
+        { "id": "marble-cameo-chiffon", "seasons": [1], "tagline": "If you think money can't buy you happiness, you clearly haven't been to Dubai." }
+      ]
+    },
+    {
+      "id": "mirrored-montage-teacup",
+      "slug": "taleen-marie",
+      "name": "Taleen Marie",
+      "franchise": "dubai",
+      "taglines": [
+        { "id": "cobalt-confessional-cabana", "seasons": [2], "tagline": "Take it from me, if you know how to stay chill, you'll never get burned." }
+      ]
+    },
+    {
+      "id": "quilted-orange-corsage",
+      "slug": "alicia-carmody",
+      "name": "Alicia Carmody",
+      "franchise": "ri",
+      "taglines": [
+        { "id": "blush-peach-teacup", "seasons": [1], "tagline": "Why settle for just a slice when you can have the whole damn pie?" }
+      ]
+    },
+    {
+      "id": "tufted-montage-confetti",
+      "slug": "rosie-dimare",
+      "name": "Rosie DiMare",
+      "franchise": "ri",
+      "taglines": [
+        { "id": "sparkly-flashback-settee", "seasons": [1], "tagline": "I used to report the news, but now I'm the headline." }
+      ]
+    },
+    {
+      "id": "mint-orange-clutch",
+      "slug": "ashley-iaconetti",
+      "name": "Ashley Iaconetti",
+      "franchise": "ri",
+      "taglines": [
+        { "id": "sapphire-montage-pillow", "seasons": [1], "tagline": "My life is like a rom-com, when I'm not crying, I'm laughing." }
+      ]
+    },
+    {
+      "id": "rose-cameo-fascinator",
+      "slug": "liz-mcgraw",
+      "name": "Liz McGraw",
+      "franchise": "ri",
+      "taglines": [
+        { "id": "ruffled-orange-gazebo", "seasons": [1], "tagline": "In the Ocean State, I dispense the weed and the truth." }
+      ]
+    },
+    {
+      "id": "frosted-finale-eclair",
+      "slug": "rulla-nehme-pontarelli",
+      "name": "Rulla Nehme Pontarelli",
+      "franchise": "ri",
+      "taglines": [
+        { "id": "mirrored-reunion-vanity", "seasons": [1], "tagline": "I have a blessed life and I'm a loyal wife." }
+      ]
+    },
+    {
+      "id": "iridescent-spotlight-glove",
+      "slug": "kelsey-swanson",
+      "name": "Kelsey Swanson",
+      "franchise": "ri",
+      "taglines": [
+        { "id": "pearly-peach-locket", "seasons": [1], "tagline": "Who needs a sugar daddy when my life is this sweet?" }
+      ]
+    },
+    {
+      "id": "metallic-photoshoot-chaise",
+      "slug": "jo-ellen-tiberi",
+      "name": "Jo-Ellen Tiberi",
+      "franchise": "ri",
+      "taglines": [
+        { "id": "plush-launch-brooch", "seasons": [1], "tagline": "I'm not trying to be mean, I just mean what I say." }
+      ]
+    },
+    {
+      "id": "ruffled-diamond-fan",
+      "slug": "brandi-redmond",
+      "name": "Brandi Redmond",
+      "franchise": "dallas",
+      "taglines": [
+        { "id": "rose-gala-ribbon", "seasons": [1], "tagline": "I was a Cowboys cheerleader, but in Dallas I'm never on the sidelines." },
+        { "id": "rose-photoshoot-gown", "seasons": [2], "tagline": "I cheered for the Cowboys, so I never get played." },
+        { "id": "sequin-tagline-brooch", "seasons": [3], "tagline": "This isn't my first rodeo, so I'm not taking your bull." },
+        { "id": "neon-glam-lipstick", "seasons": [4], "tagline": "When you mess with a ginger, expect some spice." },
+        { "id": "iridescent-apple-postcard", "seasons": [5], "tagline": "Take it from me, a sinner is just a saint who keeps on trying." }
+      ]
+    },
+    {
+      "id": "cherry-photoshoot-kaftan",
+      "slug": "cary-deuber",
+      "name": "Cary Deuber",
+      "franchise": "dallas",
+      "taglines": [
+        { "id": "blush-confessional-cushion", "seasons": [1], "tagline": "I'm not a trophy wife! I'm a lifetime achievement award." },
+        { "id": "fringed-chateau-fountain", "seasons": [2], "tagline": "Every girl has skeletons in her closet, mine are next to my Birkins." },
+        { "id": "glitter-chateau-corsage", "seasons": [3], "tagline": "When life gets messy, just build a bigger closet." }
+      ]
+    },
+    {
+      "id": "amber-gala-satchel",
+      "slug": "stephanie-hollman",
+      "name": "Stephanie Hollman",
+      "franchise": "dallas",
+      "taglines": [
+        { "id": "fringed-luncheon-perfume", "seasons": [1], "tagline": "I'm the girl next door, if you live in a big ol' mansion." },
+        { "id": "rose-montage-settee", "seasons": [2], "tagline": "I married into money, but family is my fortune." },
+        { "id": "lacquered-peach-sunhat", "seasons": [3], "tagline": "Investing in drama is not in my budget." },
+        { "id": "silver-villa-settee", "seasons": [4], "tagline": "I never carry a grudge; it won't match my shoes." },
+        { "id": "velvet-marquee-glove", "seasons": [5], "tagline": "I don't need your approval. I need you to get out of my way." }
+      ]
+    },
+    {
+      "id": "amber-orange-ribbon",
+      "slug": "leeanne-locken",
+      "name": "LeeAnne Locken",
+      "franchise": "dallas",
+      "taglines": [
+        { "id": "lacquered-apple-mascara", "seasons": [1], "tagline": "I grew up a carny kid. Play games with me, and you're gonna pay." },
+        { "id": "sequin-tagline-magnolia", "seasons": [2], "tagline": "I'm a true Texan, no bull, but all horns." },
+        { "id": "sapphire-villa-fascinator", "seasons": [3], "tagline": "You don't mess with Texas, and you don't mess with me." },
+        { "id": "mint-terrace-curler", "seasons": [4], "tagline": "Dallas is a pageant that I always win." }
+      ]
+    },
+    {
+      "id": "feathered-reunion-peony",
+      "slug": "tiffany-hendra",
+      "name": "Tiffany Hendra",
+      "franchise": "dallas",
+      "taglines": [
+        { "id": "rose-montage-magnolia", "seasons": [1], "tagline": "I came home to Dallas to shine my light, not to fight." }
+      ]
+    },
+    {
+      "id": "lavender-flashback-hatbox",
+      "slug": "d-andra-simmons",
+      "name": "D'Andra Simmons",
+      "franchise": "dallas",
+      "taglines": [
+        { "id": "emerald-finale-scrunchie", "seasons": [2], "tagline": "I started from a Dallas dynasty, but I'll finish with my own empire." },
+        { "id": "sparkly-cameo-mascara", "seasons": [3], "tagline": "Running a family business is a job for one tough mother." },
+        { "id": "cherry-launch-souffle", "seasons": [4], "tagline": "I'm minding my business, so start minding yours." },
+        { "id": "lilac-cameo-robe", "seasons": [5], "tagline": "Dallas girls are sugar and spice, but I'm still working on nice." }
+      ]
+    },
+    {
+      "id": "tufted-montage-bouquet",
+      "slug": "kameron-westcott",
+      "name": "Kameron Westcott",
+      "franchise": "dallas",
+      "taglines": [
+        { "id": "marble-orange-ottoman", "seasons": [2], "tagline": "Dumb blonds get noticed, smart blonds get everything." },
+        { "id": "ruby-orange-quill", "seasons": [3], "tagline": "I've got heels that are higher than your standards." },
+        { "id": "silver-encore-chandelier", "seasons": [4], "tagline": "Just 'cause I look like Barbie doesn't mean you can play me." },
+        { "id": "metallic-villa-bouquet", "seasons": [5], "tagline": "I love to be pampered, but I'm nobody's pet." }
+      ]
+    },
+    {
+      "id": "gilded-soiree-atomizer",
+      "slug": "kary-brittingham",
+      "name": "Kary Brittingham",
+      "franchise": "dallas",
+      "taglines": [
+        { "id": "coral-photoshoot-souffle", "seasons": [4], "tagline": "I'm bilingual but I don't speak BS." },
+        { "id": "iridescent-confessional-jukebox", "seasons": [5], "tagline": "If you take a shot at me, it better be tequila!" }
+      ]
+    },
+    {
+      "id": "mint-spotlight-confetti",
+      "slug": "tiffany-moon",
+      "name": "Tiffany Moon",
+      "franchise": "dallas",
+      "taglines": [
+        { "id": "glossy-spotlight-doily", "seasons": [5], "tagline": "I can save your life, but not your reputation." }
+      ]
+    },
+    {
+      "id": "gilded-diamond-scrunchie",
+      "slug": "mary-schmidt-amons",
+      "name": "Mary Schmidt Amons",
+      "franchise": "dc",
+      "taglines": [
+        { "id": "silver-montage-camellia", "seasons": [1], "tagline": "I don't make money, I spend money." }
+      ]
+    },
+    {
+      "id": "lavender-photoshoot-curler",
+      "slug": "lynda-erkiletian",
+      "name": "Lynda Erkiletian",
+      "franchise": "dc",
+      "taglines": [
+        { "id": "cobalt-glam-curler", "seasons": [1], "tagline": "I give people enough rope to hang themselves, and the smart people don't." }
+      ]
+    },
+    {
+      "id": "lilac-gala-cabana",
+      "slug": "cat-ommanney",
+      "name": "Cat Ommanney",
+      "franchise": "dc",
+      "taglines": [
+        { "id": "opal-encore-souffle", "seasons": [1], "tagline": "I'm here for a good time, not a long time." }
+      ]
+    },
+    {
+      "id": "sapphire-launch-gazebo",
+      "slug": "michaele-salahi",
+      "name": "Michaele Salahi",
+      "franchise": "dc",
+      "taglines": [
+        { "id": "velvet-spotlight-brooch", "seasons": [1], "tagline": "People have a hard time saying no to me and that's just been my blessing." }
+      ]
+    },
+    {
+      "id": "silk-chateau-tiara",
+      "slug": "stacie-scott-turner",
+      "name": "Stacie Scott Turner",
+      "franchise": "dc",
+      "taglines": [
+        { "id": "pearly-launch-satchel", "seasons": [1], "tagline": "DC is my town and I thrive in it." }
+      ]
+    }
+  ]
+}

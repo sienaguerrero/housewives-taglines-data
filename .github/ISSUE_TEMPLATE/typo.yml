@@ -1,0 +1,29 @@
+name: Typo
+description: Something on notafriendof.siena.codes is misspelled or misquoted.
+title: "Typo: "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The link to the page where you saw it.
+      placeholder: https://notafriendof.siena.codes/...
+    validations:
+      required: true
+  - type: input
+    id: says
+    attributes:
+      label: What it says
+    validations:
+      required: true
+  - type: input
+    id: should-say
+    attributes:
+      label: What it should say
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: How you know
+      description: Optional. An episode and timestamp, or a link.
